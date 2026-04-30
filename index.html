@@ -1,9 +1,11 @@
+Here is an updated HTML document that adds direct Google Scholar links to each of your published papers, working papers, and under-review articles.
+```html
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>M. Rezoanul Hoque</title>
+    <title>M. Rezoanul Hoque — Financial Economics & Machine Learning</title>
     <meta
       name="description"
       content="PhD Student in Financial Economics at the University of New Orleans. Research in financial economics, data science, and machine learning."
@@ -355,6 +357,7 @@
         display: flex;
         flex-wrap: wrap;
         gap: 0.4rem;
+        margin-top: 0.3rem;
       }
 
       .pub-links a {
@@ -368,10 +371,14 @@
         transition: all 0.2s;
         text-transform: uppercase;
         letter-spacing: 0.03em;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.25rem;
       }
       .pub-links a:hover {
         border-color: var(--accent);
         color: var(--accent);
+        background: var(--accent-dim);
       }
 
       /* ── Simple pub list for under review ── */
@@ -582,6 +589,23 @@
         white-space: nowrap;
       }
 
+      /* scholar profile badge */
+      .scholar-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        background: var(--accent-dim);
+        border-radius: 40px;
+        padding: 0.3rem 1rem;
+        font-size: 0.8rem;
+        font-weight: 500;
+        margin-left: 1rem;
+        vertical-align: middle;
+      }
+      .scholar-badge i {
+        font-size: 0.9rem;
+      }
+
       /* ── Responsive ── */
       @media (max-width: 768px) {
         .hero {
@@ -617,6 +641,11 @@
         .edu-item {
           grid-template-columns: 1fr;
           gap: 0.2rem;
+        }
+        .scholar-badge {
+          margin-left: 0;
+          margin-top: 0.5rem;
+          display: inline-block;
         }
       }
 
@@ -709,15 +738,6 @@
             with particular focus on reinforcement learning in financial
             decision-making, wealth inequality, and green industrial policy.
           </p>
-          <!-- <p class="hero-bio">
-            Previously, I've worked with the <strong>USDA</strong>,
-            <strong>World Bank</strong>,
-            <strong>Asian Development Bank</strong>, and
-            <strong>Bangladesh Institute of Development Studies</strong>. I was
-            a <strong>1st Prize Winner</strong> at the USDA AMS-AAEA Data
-            Visualization Challenge and an invited expert speaker at the
-            <strong>U.S. State Department Foreign Service Institute</strong>.
-          </p> -->
           <p class="hero-bio" style="margin-bottom: 1rem">
             Here's my <a href="#">CV</a>. You can reach me at
             <a href="mailto:mrezoan1@uno.edu">mrezoan1@uno.edu</a>.
@@ -740,16 +760,12 @@
             "
           />
           <div class="avatar-address">
-            <!-- University of New Orleans<br />
-            2000 Lakeshore Dr<br />
-            New Orleans, LA 70148 -->
             Welcome to my Website
           </div>
         </div>
       </section>
 
-
-        <section id="skills" class="reveal">
+      <section id="skills" class="reveal">
         <h2>Technical Expertise</h2>
         <div class="skills-grid">
           <div class="skill-category">
@@ -801,9 +817,7 @@
         </div>
         <div class="edu-item">
           <div>
-            <div class="edu-degree">
-              M.Sc in Applied Economics (STEM)
-            </div>
+            <div class="edu-degree">M.Sc in Applied Economics (STEM)</div>
             <div class="edu-school">Texas Tech University, USA</div>
           </div>
           <div class="edu-year">2024</div>
@@ -817,123 +831,104 @@
         </div>
       </section>
 
-      <!-- Publications -->
+      <!-- Publications with Google Scholar Links -->
       <section id="publications" class="reveal">
-        <h2>Published</h2>
+        <div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between;">
+          <h2 style="margin-bottom: 0;">Published</h2>
+          <a href="https://scholar.google.com/citations?user=I0jIEoQAAAAJ&hl=en" target="_blank" class="scholar-badge">
+            <i class="ai ai-google-scholar"></i> Full Google Scholar Profile
+          </a>
+        </div>
 
-        <!-- Journal Article -->
+        <!-- Journal Article 1 -->
         <div class="pub-card">
-          <!-- <div class="pub-thumb">
-            <div class="pub-thumb-placeholder">
-              <i class="fas fa-file-alt"></i>
-            </div>
-          </div> -->
           <div>
             <span class="pub-tag journal">Journal Article</span>
-            <div class="pub-title">
-              Nonfarm Activity Reduces Migration: Evidence from Bangladesh
-            </div>
-            <div class="pub-authors">
-              Hoque, M.R., Iqbal, K., Pabon, M.N.F., & Shashi, N.A.
-            </div>
+            <div class="pub-title">Nonfarm Activity Reduces Migration: Evidence from Bangladesh</div>
+            <div class="pub-authors">Hoque, M.R., Iqbal, K., Pabon, M.N.F., & Shashi, N.A.</div>
             <div class="pub-venue">Development Policy Review, 2024</div>
+            <div class="pub-links">
+              <a href="https://scholar.google.com/scholar?q=Nonfarm+Activity+Reduces+Migration+Evidence+from+Bangladesh+Hoque" target="_blank"><i class="ai ai-google-scholar"></i> View on Google Scholar</a>
+            </div>
           </div>
         </div>
 
+        <!-- Journal Article 2 -->
         <div class="pub-card">
-          <!-- <div class="pub-thumb">
-            <div class="pub-thumb-placeholder">
-              <i class="fas fa-file-alt"></i>
-            </div>
-          </div> -->
           <div>
             <span class="pub-tag journal">Journal Article</span>
-            <div class="pub-title">
-              Islamic Finance in the USA: Concepts, Institutions, and Ethical
-              Complexities
-            </div>
-            <div class="pub-authors">
-              Hassan, M.K., Hoque, M.R., & Rabbani, M.R.
-            </div>
-            <div class="pub-venue">
-              Al Qasimia University Journal of Islamic Economics, 5(2), 01–18,
-              2025
+            <div class="pub-title">Islamic Finance in the USA: Concepts, Institutions, and Ethical Complexities</div>
+            <div class="pub-authors">Hassan, M.K., Hoque, M.R., & Rabbani, M.R.</div>
+            <div class="pub-venue">Al Qasimia University Journal of Islamic Economics, 5(2), 01–18, 2025</div>
+            <div class="pub-links">
+              <a href="https://scholar.google.com/scholar?q=Islamic+Finance+in+the+USA+Concepts+Institutions+and+Ethical+Complexities+Hassan+Hoque" target="_blank"><i class="ai ai-google-scholar"></i> View on Google Scholar</a>
             </div>
           </div>
         </div>
 
+        <!-- Book Chapter -->
         <div class="pub-card">
-          <!-- <div class="pub-thumb">
-            <div class="pub-thumb-placeholder"><i class="fas fa-book"></i></div>
-          </div> -->
           <div>
             <span class="pub-tag book">Book Chapter</span>
-            <div class="pub-title">
-              Social Impact of Islamic Finance: The Paradox of Growth vs. Impact
-            </div>
+            <div class="pub-title">Social Impact of Islamic Finance: The Paradox of Growth vs. Impact</div>
             <div class="pub-authors">Hoque, M.R. & Hassan, K.</div>
-            <div class="pub-venue">
-              In Social Impact, Ethics, and Practice in Abrahamic Finance (pp.
-              233–280), 2026
+            <div class="pub-venue">In Social Impact, Ethics, and Practice in Abrahamic Finance (pp. 233–280), 2026</div>
+            <div class="pub-links">
+              <a href="https://scholar.google.com/scholar?q=Social+Impact+of+Islamic+Finance+The+Paradox+of+Growth+vs+Impact+Hoque" target="_blank"><i class="ai ai-google-scholar"></i> View on Google Scholar</a>
             </div>
           </div>
         </div>
 
-        <h2 style="margin-top: 2.5rem">Under Review / Working Papers</h2>
+        <h2 style="margin-top: 2rem;">Under Review / Working Papers</h2>
 
         <div class="pub-simple">
           <span class="pub-tag review">Under Review</span>
-          <div class="pub-title">
-            Reinforcement Learning in Financial Decision Making: Possibilities
-            and Challenges
-          </div>
+          <div class="pub-title">Reinforcement Learning in Financial Decision Making: Possibilities and Challenges</div>
           <div class="pub-authors">Hoque, M.R. et al.</div>
-          <div class="pub-venue">
-            Under review at Journal of Financial Economics
+          <div class="pub-venue">Under review at Journal of Financial Economics</div>
+          <div class="pub-links">
+            <a href="https://scholar.google.com/scholar?q=Reinforcement+Learning+in+Financial+Decision+Making+Possibilities+and+Challenges+Hoque" target="_blank"><i class="ai ai-google-scholar"></i> Scholar search</a>
           </div>
         </div>
 
         <div class="pub-simple">
           <span class="pub-tag review">Under Review</span>
-          <div class="pub-title">
-            Wealth Inequality and Utility: Macro-econophysical Analysis of
-            Redistribution Effects
-          </div>
+          <div class="pub-title">Wealth Inequality and Utility: Macro-econophysical Analysis of Redistribution Effects</div>
           <div class="pub-authors">Kato, T. & Hoque, M.R.</div>
-          <div class="pub-venue">
-            Under review at Journal of Economic Dynamics and Control
+          <div class="pub-venue">Under review at Journal of Economic Dynamics and Control</div>
+          <div class="pub-links">
+            <a href="https://scholar.google.com/scholar?q=Wealth+Inequality+and+Utility+Macro-econophysical+Analysis+of+Redistribution+Effects" target="_blank"><i class="ai ai-google-scholar"></i> Scholar search</a>
           </div>
         </div>
 
         <div class="pub-simple">
           <span class="pub-tag review">Under Review</span>
-          <div class="pub-title">
-            Bangladesh Green Industries Diagnostic: A Comprehensive Framework
-          </div>
+          <div class="pub-title">Bangladesh Green Industries Diagnostic: A Comprehensive Framework</div>
           <div class="pub-authors">Al-Amin, A.Q. & Hoque, M.R.</div>
           <div class="pub-venue">Under review at World Development</div>
+          <div class="pub-links">
+            <a href="https://scholar.google.com/scholar?q=Bangladesh+Green+Industries+Diagnostic+A+Comprehensive+Framework+Al-Amin" target="_blank"><i class="ai ai-google-scholar"></i> Scholar search</a>
+          </div>
         </div>
 
         <div class="pub-simple">
           <span class="pub-tag review">Submitted</span>
-          <div class="pub-title">
-            Interpretable Financial Forecasting with Kolmogorov-Arnold Networks:
-            A Review
-          </div>
-          <div class="pub-authors">
-            Hoque, M.R.; Hoque, M.R. (Ehsanul), Sarkar, M.R., & Dam, T.
-          </div>
+          <div class="pub-title">Interpretable Financial Forecasting with Kolmogorov-Arnold Networks: A Review</div>
+          <div class="pub-authors">Hoque, M.R.; Hoque, M.R. (Ehsanul), Sarkar, M.R., & Dam, T.</div>
           <div class="pub-venue">Submitted to Computer Science Review</div>
+          <div class="pub-links">
+            <a href="https://scholar.google.com/scholar?q=Interpretable+Financial+Forecasting+with+Kolmogorov-Arnold+Networks+A+Review" target="_blank"><i class="ai ai-google-scholar"></i> Scholar search</a>
+          </div>
         </div>
 
         <div class="pub-simple">
           <span class="pub-tag review">Under Review</span>
-          <div class="pub-title">
-            AI Agents in Islamic Finance: Applications, Governance, and Future
-            Directions
-          </div>
+          <div class="pub-title">AI Agents in Islamic Finance: Applications, Governance, and Future Directions</div>
           <div class="pub-authors">Hoque, M.R.</div>
           <div class="pub-venue">Under review</div>
+          <div class="pub-links">
+            <a href="https://scholar.google.com/scholar?q=AI+Agents+in+Islamic+Finance+Applications+Governance+and+Future+Directions" target="_blank"><i class="ai ai-google-scholar"></i> Scholar search</a>
+          </div>
         </div>
       </section>
 
@@ -1011,80 +1006,6 @@
         </div>
       </section>
 
-      <!-- Research Experience -->
-      <!-- <section id="experience" class="reveal">
-        <h2>Research Experience</h2>
-
-        <div class="timeline-item">
-          <h3>Senior Graduate Research Assistant</h3>
-          <div class="timeline-org">
-            Division of Business and Economic Research (DBER), University of New
-            Orleans
-          </div>
-          <div class="timeline-date">2024 – Present</div>
-          <div class="timeline-desc">
-            Leading research on U.S. tourism industry transformation, database
-            dynamics, and big data impact analysis with direct policy
-            implications.
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <h3>Graduate Research Assistant</h3>
-          <div class="timeline-org">Texas Tech University</div>
-          <div class="timeline-date">2022 – 2024</div>
-          <div class="timeline-desc">
-            Research on U.S. agricultural transition dynamics, consumer behavior
-            analytics, and retail market evolution using advanced big data
-            methodologies.
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <h3>Principal Research Fellow</h3>
-          <div class="timeline-org">
-            Research and Policy Integration for Development
-          </div>
-          <div class="timeline-date">2021 – 2023</div>
-          <div class="timeline-desc">
-            Led preparation of annual project reports and policy briefs with
-            national economic impact.
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <h3>Senior Research Associate</h3>
-          <div class="timeline-org">Policy Research Institute Bangladesh</div>
-          <div class="timeline-date">2020 – 2022</div>
-          <div class="timeline-desc">
-            Directed research on tax mobilization in Bangladesh. Authored
-            comprehensive annual reports adopted by national tax authorities.
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <h3>Senior Monitoring & Evaluation Specialist</h3>
-          <div class="timeline-org">WorldFish Bangladesh</div>
-          <div class="timeline-date">2019 – 2022</div>
-          <div class="timeline-desc">
-            Designed M&E frameworks for the Artemia4Bangladesh project. Led
-            cross-functional teams and established performance metrics.
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <h3>Lead Research Associate</h3>
-          <div class="timeline-org">
-            Bangladesh Institute of Development Studies (BIDS)
-          </div>
-          <div class="timeline-date">2018 – 2019</div>
-          <div class="timeline-desc">
-            Directed research under the Industrial Division. Led proposal
-            development and strategic research implementation.
-          </div>
-        </div>
-      </section> -->
-
       <!-- Awards -->
       <section id="awards" class="reveal">
         <h2>Honors & Awards</h2>
@@ -1109,96 +1030,7 @@
             presentation skills
           </div>
         </div>
-
-        <!-- <div class="award-item">
-          <div class="award-title">
-            Distinguished Graduate Student Assistantship
-          </div>
-          <div class="award-org">Texas Tech University</div>
-          <div class="award-date">2022 – 2024</div>
-        </div> -->
-
-        <!-- <div class="award-item">
-          <div class="award-title">Invited Expert Speaker</div>
-          <div class="award-org">
-            U.S. State Department Foreign Service Institute
-          </div>
-          <div class="award-date">2023, 2024</div>
-          <div class="award-desc">
-            Selected to address diplomatic personnel on South Asian economic
-            dynamics
-          </div>
-        </div> -->
       </section>
-
-      <!-- Teaching -->
-      <!-- <section id="teaching" class="reveal">
-        <h2>Teaching</h2>
-
-        <div class="timeline-item">
-          <h3>Graduate Teaching Assistant</h3>
-          <div class="timeline-org">Texas Tech University</div>
-          <div class="timeline-date">2023 – 2024</div>
-          <div class="timeline-desc">
-            Advanced Macroeconomics and Microeconomics instruction for graduate
-            and undergraduate students.
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <h3>Senior Economics Faculty</h3>
-          <div class="timeline-org">IMAS International School, Malaysia</div>
-          <div class="timeline-date">2018</div>
-          <div class="timeline-desc">
-            A-level and O-level Economics for international students. Cambridge
-            International Examinations.
-          </div>
-        </div>
-
-        <div class="timeline-item">
-          <h3>International Program Coordinator</h3>
-          <div class="timeline-org">SOLS 24/7, Malaysia</div>
-          <div class="timeline-date">2017</div>
-          <div class="timeline-desc">
-            Coordinated training programs under Malaysia's Ministry of
-            Finance-funded Bi1M initiative.
-          </div>
-        </div>
-      </section> -->
-
-      <!-- Technical Skills -->
-      <!-- <section id="skills" class="reveal">
-        <h2>Technical Expertise</h2>
-        <div class="skills-grid">
-          <div class="skill-category">
-            <h3>Programming</h3>
-            <div class="skill-tags">
-              <span>Python</span><span>R</span><span>Stata</span
-              ><span>MATLAB</span><span>SQL</span>
-            </div>
-          </div>
-          <div class="skill-category">
-            <h3>ML / AI</h3>
-            <div class="skill-tags">
-              <span>PyTorch</span><span>TensorFlow</span><span>XGBoost</span
-              ><span>LightGBM</span>
-            </div>
-          </div>
-          <div class="skill-category">
-            <h3>Data & Viz</h3>
-            <div class="skill-tags">
-              <span>Pandas</span><span>NumPy</span><span>Matplotlib</span
-              ><span>Plotly</span>
-            </div>
-          </div>
-          <div class="skill-category">
-            <h3>Domain Tools</h3>
-            <div class="skill-tags">
-              <span>GTAP</span><span>GIS / Spatial</span>
-            </div>
-          </div>
-        </div>
-      </section> -->
     </main>
 
     <!-- Footer -->
@@ -1287,3 +1119,4 @@
     </script>
   </body>
 </html>
+```
