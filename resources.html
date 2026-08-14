@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resources | Mohammad Rezoanul Hoque</title>
+    <meta name="description" content="Resources for students and researchers from Mohammad Rezoanul Hoque — CV, data sources, tools, and learning material for finance and economics." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23461D7C'/%3E%3Ctext x='32' y='43' font-family='Georgia' font-size='27' font-weight='bold' fill='%23FDD023' text-anchor='middle'%3ERH%3C/text%3E%3C/svg%3E" />
+    <script>if(localStorage.getItem("theme")==="dark")document.documentElement.setAttribute("data-theme","dark");</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <nav class="topnav">
+      <div class="nav-inner">
+        <a class="brand" href="index.html"><span class="fleur">&#9884;</span> M. Rezoanul Hoque</a>
+        <div class="nav-right">
+          <div class="nav-links" id="nav-links">
+            <a href="index.html">Home</a>
+            <a href="publications.html">Publications</a>
+            <a href="projects.html">Projects</a>
+            <a href="teaching.html">Teaching</a>
+            <a href="resources.html" class="active">Resources</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode"><i class="fas fa-moon" id="theme-icon"></i></button>
+          <button class="nav-burger" onclick="toggleNav()" aria-label="Menu"><i class="fas fa-bars"></i></button>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="page-head">
+        <span class="eyebrow">For Students &amp; Researchers</span>
+        <h1>Resources</h1>
+        <p class="lede">
+          My CV, plus the data sources and tools I actually use and recommend to students
+          getting started in empirical finance and economics.
+        </p>
+      </div>
+
+      <section class="reveal" style="border-top: none; padding-top: 1rem;">
+        <div class="grid-3">
+          <div class="card">
+            <div class="icon"><i class="fas fa-file-pdf"></i></div>
+            <h3>Curriculum Vitae</h3>
+            <p>Full academic CV: education, research, teaching, and professional experience.</p>
+            <div class="card-links"><a class="btn btn-primary" href="Mohammad_Rezoanul_Hoque_CV.pdf" target="_blank"><i class="fas fa-download"></i> Download CV</a></div>
+          </div>
+          <div class="card">
+            <div class="icon"><i class="ai ai-google-scholar"></i></div>
+            <h3>Google Scholar</h3>
+            <p>My publication record, citations, and co-author network.</p>
+            <div class="card-links"><a class="btn btn-outline" href="https://scholar.google.com/citations?user=I0jIEoQAAAAJ&hl=en" target="_blank" rel="noopener">View profile</a></div>
+          </div>
+          <div class="card">
+            <div class="icon"><i class="fab fa-github"></i></div>
+            <h3>GitHub</h3>
+            <p>Code and reproducible pipelines from my research projects.</p>
+            <div class="card-links"><a class="btn btn-outline" href="https://github.com/rezoanhoque" target="_blank" rel="noopener">View profile</a></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="reveal">
+        <h2>Data Sources I Use</h2>
+        <div class="grid-2">
+          <div class="card">
+            <div class="icon"><i class="fas fa-database"></i></div>
+            <h3>Financial &amp; Banking Data</h3>
+            <ul class="link-list">
+              <li><i class="fas fa-angle-right"></i> <a href="https://wrds-www.wharton.upenn.edu/" target="_blank" rel="noopener">WRDS</a> — CRSP, Compustat, IBES, TRACE, DealScan</li>
+              <li><i class="fas fa-angle-right"></i> <a href="https://www.ffiec.gov/npw/" target="_blank" rel="noopener">FFIEC</a> — U.S. bank call reports &amp; regulatory filings</li>
+              <li><i class="fas fa-angle-right"></i> <a href="https://www.sec.gov/edgar/search/" target="_blank" rel="noopener">SEC EDGAR</a> — corporate filings, full-text search</li>
+              <li><i class="fas fa-angle-right"></i> <a href="https://fred.stlouisfed.org/" target="_blank" rel="noopener">FRED</a> — macro &amp; financial time series</li>
+              <li><i class="fas fa-angle-right"></i> <a href="https://banks.data.fdic.gov/" target="_blank" rel="noopener">FDIC BankFind</a> — bank financials &amp; failures</li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="icon"><i class="fas fa-globe"></i></div>
+            <h3>Economics &amp; Development Data</h3>
+            <ul class="link-list">
+              <li><i class="fas fa-angle-right"></i> <a href="https://data.worldbank.org/" target="_blank" rel="noopener">World Bank Open Data</a></li>
+              <li><i class="fas fa-angle-right"></i> <a href="https://www.imf.org/en/Data" target="_blank" rel="noopener">IMF Data</a></li>
+              <li><i class="fas fa-angle-right"></i> <a href="http://www.cepii.fr/CEPII/en/bdd_modele/bdd_modele.asp" target="_blank" rel="noopener">CEPII</a> — gravity &amp; trade databases</li>
+              <li><i class="fas fa-angle-right"></i> <a href="https://www.gtap.agecon.purdue.edu/" target="_blank" rel="noopener">GTAP</a> — global trade analysis</li>
+              <li><i class="fas fa-angle-right"></i> <a href="https://www.census.gov/data.html" target="_blank" rel="noopener">U.S. Census Bureau</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="reveal">
+        <h2>Learning &amp; Tools</h2>
+        <div class="grid-2">
+          <div class="card">
+            <div class="icon"><i class="fas fa-code"></i></div>
+            <h3>Coding for Research</h3>
+            <ul class="link-list">
+              <li><i class="fas fa-angle-right"></i> <a href="https://quantecon.org/" target="_blank" rel="noopener">QuantEcon</a> — quantitative economics in Python &amp; Julia</li>
+              <li><i class="fas fa-angle-right"></i> <a href="https://www.tidy-finance.org/" target="_blank" rel="noopener">Tidy Finance</a> — empirical finance in R &amp; Python</li>
+              <li><i class="fas fa-angle-right"></i> <a href="https://scikit-learn.org/" target="_blank" rel="noopener">scikit-learn</a> &middot; <a href="https://pytorch.org/" target="_blank" rel="noopener">PyTorch</a> &middot; <a href="https://xgboost.readthedocs.io/" target="_blank" rel="noopener">XGBoost</a></li>
+              <li><i class="fas fa-angle-right"></i> <a href="https://www.statsmodels.org/" target="_blank" rel="noopener">statsmodels</a> — econometrics in Python</li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="icon"><i class="fas fa-book-open"></i></div>
+            <h3>Research &amp; Writing</h3>
+            <ul class="link-list">
+              <li><i class="fas fa-angle-right"></i> <a href="https://www.ssrn.com/" target="_blank" rel="noopener">SSRN</a> — working papers in finance &amp; economics</li>
+              <li><i class="fas fa-angle-right"></i> <a href="https://www.nber.org/papers" target="_blank" rel="noopener">NBER Working Papers</a></li>
+              <li><i class="fas fa-angle-right"></i> <a href="https://arxiv.org/list/q-fin/new" target="_blank" rel="noopener">arXiv q-fin</a> — quantitative finance preprints</li>
+              <li><i class="fas fa-angle-right"></i> <a href="https://www.overleaf.com/" target="_blank" rel="noopener">Overleaf</a> — collaborative LaTeX</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="reveal">
+        <h2>For My Students</h2>
+        <p style="color: var(--ink-2); max-width: 46rem;">
+          Course materials, syllabi, and problem sets are distributed through Canvas.
+          If you are a current student, use the course Canvas page first; for anything
+          else — recommendation letters, research assistance opportunities, or questions
+          about graduate school in finance and economics — <a href="contact.html">get in touch</a>.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-inner">
+        <div class="footer-social">
+          <a href="mailto:mrezoan1@uno.edu" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/rezoanul" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://scholar.google.com/citations?user=I0jIEoQAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+          <a href="https://github.com/rezoanhoque" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="footer-copy">&copy; 2026 Mohammad Rezoanul Hoque &middot; Ph.D. Candidate in Financial Economics, LSU New Orleans</div>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
