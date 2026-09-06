@@ -127,8 +127,18 @@ main { max-width: 1280px; margin: 0 auto; padding: 5.6rem 1.5rem 3.5rem; }
   margin-bottom: 0.6rem;
 }
 
-section { padding: 2.4rem 0; }
-section + section { border-top: 1px solid var(--border); }
+section { padding: 3.2rem 0; position: relative; }
+/* Alternate bands so the page is not one flat colour. The pseudo-element
+   breaks out of the centred container to span the full viewport width. */
+section:nth-of-type(even)::before {
+  content: ""; position: absolute; z-index: -1;
+  left: 50%; transform: translateX(-50%);
+  width: 100vw; top: 0; bottom: 0;
+  background: linear-gradient(135deg,
+    rgba(70, 29, 124, 0.20), rgba(72, 112, 214, 0.14));
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
 section h2 { font-size: 2.25rem; font-weight: 700; margin-bottom: 2.6rem; text-align: center; }
 .section-note { color: var(--ink-3); font-size: 0.9rem; margin-top: -2rem; margin-bottom: 2rem; text-align: center; }
 
@@ -143,8 +153,12 @@ section h2 { font-size: 2.25rem; font-weight: 700; margin-bottom: 2.6rem; text-a
 .hero .role { font-size: 1.08rem; font-weight: 600; color: var(--accent); }
 
 .affil {
-  display: flex; align-items: center; gap: 0.7rem; margin: 0.9rem 0 1.1rem; flex-wrap: wrap;
+  display: flex; flex-direction: column; align-items: flex-start;
+  gap: 0.55rem; margin: 0.9rem 0 1.1rem;
 }
+.lsu-mark { display: inline-block; color: var(--ink); transition: color 0.2s; }
+.lsu-mark:hover { color: var(--accent); }
+.lsu-svg { height: 22px; width: auto; display: block; }
 .affil-logo {
   display: block; width: 178px; aspect-ratio: 4 / 1; border-radius: 8px; overflow: hidden;
   box-shadow: 0 2px 10px rgba(70, 29, 124, 0.25);
