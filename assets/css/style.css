@@ -124,7 +124,7 @@ section h2 { font-size: 2.25rem; font-weight: 700; margin-bottom: 2.6rem; text-a
 
 /* ---------- Hero ---------- */
 .hero {
-  display: grid; grid-template-columns: 1.15fr 0.85fr;
+  display: grid; grid-template-columns: 1fr 1fr;
   gap: 3rem; align-items: center; padding: 2.6rem 0 2.8rem;
 }
 
@@ -170,7 +170,7 @@ section h2 { font-size: 2.25rem; font-weight: 700; margin-bottom: 2.6rem; text-a
 /* Cutout portrait. The subject sits directly on the page over a large,
    heavily blurred brand-tinted ellipse, and is kept deliberately small so it
    reads as sitting back in the composition rather than crowding the text. */
-.portrait { justify-self: center; width: 100%; max-width: 320px; position: relative; }
+.portrait { justify-self: center; width: 100%; max-width: 265px; position: relative; }
 .portrait-frame { position: relative; }
 .portrait-frame::before {
   content: ""; position: absolute; z-index: 0; pointer-events: none;
