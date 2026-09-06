@@ -37,7 +37,13 @@ html { scroll-behavior: smooth; font-size: 16px; }
 
 body {
   font-family: "Inter", -apple-system, "Segoe UI", sans-serif;
-  background: var(--bg);
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(ellipse 50% 68% at -6% 26%, rgba(72, 112, 214, 0.30), transparent 62%),
+    radial-gradient(ellipse 50% 68% at 106% 70%, rgba(84, 118, 210, 0.28), transparent 62%),
+    radial-gradient(ellipse 40% 50% at 100% 4%, rgba(96, 108, 200, 0.16), transparent 65%),
+    radial-gradient(circle at 50% 50%, rgba(120, 119, 198, 0.05), transparent 70%);
+  background-attachment: fixed;
   color: var(--ink);
   line-height: 1.7;
   transition: background 0.35s, color 0.35s;
@@ -72,7 +78,11 @@ nav.topnav {
   display: flex; align-items: center; gap: 0.55rem; white-space: nowrap;
 }
 .brand:hover { color: var(--accent); }
-.brand .fleur { color: var(--gold-ink); font-size: 1rem; }
+.brand-avatar {
+  width: 36px; height: 36px; border-radius: 50%;
+  object-fit: cover; display: block; flex-shrink: 0;
+  border: 1px solid var(--border);
+}
 
 .nav-right { display: flex; align-items: center; gap: 0.4rem; }
 
