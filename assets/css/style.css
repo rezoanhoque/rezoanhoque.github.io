@@ -1,36 +1,10 @@
 /* ==========================================================================
    Mohammad Rezoanul Hoque, personal academic site
    Design system: Playfair Display (display) + Inter (body)
-   Brand: LSU purple #461D7C · gold #FDD023 · light default, dark toggle
+   Brand: LSU purple #461D7C · gold #FDD023 · dark default, light toggle
    ========================================================================== */
 
 :root {
-  --bg: #faf9fb;
-  --bg-alt: #f3f0f8;
-  --card: #ffffff;
-  --ink: #201a2e;
-  --ink-2: #4c4560;
-  --ink-3: #857e96;
-  --accent: #461d7c;
-  --accent-strong: #35155e;
-  --accent-soft: rgba(70, 29, 124, 0.08);
-  --accent-border: rgba(70, 29, 124, 0.18);
-  --gold: #fdd023;
-  --gold-ink: #7a5e00;
-  --gold-soft: rgba(253, 208, 35, 0.18);
-  --border: rgba(32, 26, 46, 0.1);
-  --shadow: 0 6px 28px rgba(32, 26, 46, 0.09);
-  --shadow-lg: 0 16px 48px rgba(32, 26, 46, 0.14);
-  --nav-bg: rgba(250, 249, 251, 0.88);
-  --ok: #1e7d4f;
-  --ok-soft: rgba(30, 125, 79, 0.1);
-  --info: #1d5fa8;
-  --info-soft: rgba(29, 95, 168, 0.1);
-  --warn-ink: #8a5a00;
-  --warn-soft: rgba(216, 148, 0, 0.13);
-}
-
-[data-theme="dark"] {
   --bg: #14101c;
   --bg-alt: #191322;
   --card: #201a2e;
@@ -54,6 +28,32 @@
   --info-soft: rgba(119, 174, 222, 0.13);
   --warn-ink: #eab84f;
   --warn-soft: rgba(234, 184, 79, 0.13);
+}
+
+[data-theme="light"] {
+  --bg: #faf9fb;
+  --bg-alt: #f3f0f8;
+  --card: #ffffff;
+  --ink: #201a2e;
+  --ink-2: #4c4560;
+  --ink-3: #857e96;
+  --accent: #461d7c;
+  --accent-strong: #35155e;
+  --accent-soft: rgba(70, 29, 124, 0.08);
+  --accent-border: rgba(70, 29, 124, 0.18);
+  --gold: #fdd023;
+  --gold-ink: #7a5e00;
+  --gold-soft: rgba(253, 208, 35, 0.18);
+  --border: rgba(32, 26, 46, 0.1);
+  --shadow: 0 6px 28px rgba(32, 26, 46, 0.09);
+  --shadow-lg: 0 16px 48px rgba(32, 26, 46, 0.14);
+  --nav-bg: rgba(250, 249, 251, 0.88);
+  --ok: #1e7d4f;
+  --ok-soft: rgba(30, 125, 79, 0.1);
+  --info: #1d5fa8;
+  --info-soft: rgba(29, 95, 168, 0.1);
+  --warn-ink: #8a5a00;
+  --warn-soft: rgba(216, 148, 0, 0.13);
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -182,9 +182,10 @@ section h2 { font-size: 2.25rem; font-weight: 700; margin-bottom: 2.6rem; text-a
   font-size: 0.92rem; font-weight: 600; padding: 0.6rem 1.25rem; border-radius: 10px;
   border: 1px solid transparent; transition: all 0.2s;
 }
-.btn-primary { background: var(--accent); color: #fff; }
-.btn-primary:hover { background: var(--accent-strong); color: #fff; transform: translateY(-1px); }
-[data-theme="dark"] .btn-primary { color: #14101c; }
+.btn-primary { background: var(--accent); color: #14101c; }
+.btn-primary:hover { background: var(--accent-strong); color: #14101c; transform: translateY(-1px); }
+[data-theme="light"] .btn-primary,
+[data-theme="light"] .btn-primary:hover { color: #fff; }
 .btn-outline { border-color: var(--accent-border); color: var(--accent); background: transparent; }
 .btn-outline:hover { background: var(--accent-soft); color: var(--accent-strong); }
 
@@ -204,12 +205,12 @@ section h2 { font-size: 2.25rem; font-weight: 700; margin-bottom: 2.6rem; text-a
   overflow: hidden;
   background: radial-gradient(circle at 50% 32%,
     #35333e 0%, #24232c 40%, #16161c 76%, #0e0e12 100%);
-  box-shadow: 0 24px 55px rgba(32, 26, 46, 0.32),
-              inset 0 0 0 1px rgba(255, 255, 255, 0.06);
-}
-[data-theme="dark"] .portrait-frame {
   box-shadow: 0 24px 55px rgba(0, 0, 0, 0.6),
               inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+[data-theme="light"] .portrait-frame {
+  box-shadow: 0 24px 55px rgba(32, 26, 46, 0.32),
+              inset 0 0 0 1px rgba(255, 255, 255, 0.06);
 }
 .portrait picture { display: block; height: 100%; }
 .portrait img {
