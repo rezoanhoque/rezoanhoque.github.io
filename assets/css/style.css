@@ -214,8 +214,9 @@ section h2 { font-size: 1.7rem; font-weight: 600; margin-bottom: 1.5rem; }
     rgba(253, 208, 35, 0.07) 62%,
     transparent 72%);
 }
+.portrait picture { display: block; }
 .portrait img {
-  position: relative; z-index: 1; width: 100%; display: block;
+  position: relative; z-index: 1; width: 100%; height: auto; display: block;
   filter: drop-shadow(0 18px 26px rgba(32, 26, 46, 0.16));
   /* Dissolve the cropped shoulder line into the page instead of a hard edge. */
   -webkit-mask-image: linear-gradient(to bottom, #000 78%, rgba(0, 0, 0, 0.55) 92%, transparent 100%);
