@@ -167,7 +167,7 @@ section h2 { font-size: 1.7rem; font-weight: 600; margin-bottom: 1.5rem; }
 .affil-logo img { width: 100%; height: 100%; object-fit: cover; object-position: center; display: block; }
 .affil .affil-text { font-size: 0.92rem; color: var(--ink-2); }
 
-.hero-bio { color: var(--ink-2); font-size: 1.02rem; max-width: 34rem; margin-bottom: 1.2rem; }
+.hero-bio { color: var(--ink-2); font-size: 0.95rem; line-height: 1.65; max-width: 33rem; margin-bottom: 1.2rem; }
 
 .chips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem; }
 .chip {
@@ -195,7 +195,7 @@ section h2 { font-size: 1.7rem; font-weight: 600; margin-bottom: 1.5rem; }
 
 /* Cutout portrait: no card, no frame. The subject sits directly on the page
    over a soft brand-tinted glow, so it reads as part of the background. */
-.portrait { justify-self: center; width: 100%; max-width: 440px; position: relative; }
+.portrait { justify-self: center; width: 100%; max-width: 500px; position: relative; }
 .portrait-frame { position: relative; }
 .portrait-frame::before {
   content: ""; position: absolute; z-index: 0;
