@@ -72,10 +72,20 @@ footer{border-top:4px solid var(--forest);color:var(--ink2)}
 /* links: no underline at rest, underline only on hover */
 a{color:var(--forest);text-decoration:none;font-weight:600}
 a:hover{text-decoration:underline;text-decoration-thickness:1.5px}
-.links li{padding:9px 0}
-.links .k{color:var(--ink3);font-weight:400}
-.links a{color:var(--ink)}
-.links a:hover{color:var(--forest)}
+/* contact block under the photo: CV button, email, profile row; no rules, no grey */
+.contact{margin-top:22px;font-family:var(--sans)}
+.contact svg{width:18px;height:18px;flex:none;fill:currentColor}
+.contact a{display:flex;align-items:center;gap:10px;color:var(--forest);font-weight:600;text-decoration:none}
+.contact a:hover{text-decoration:none}
+.contact a:hover span{text-decoration:underline;text-decoration-thickness:1.5px;text-underline-offset:3px}
+.cv-btn{justify-content:center;background:var(--forest);color:#fff !important;padding:12px 18px;border-radius:4px;font-size:16.5px;letter-spacing:.01em;transition:background .15s}
+.cv-btn:hover{background:#0d3570}
+.cv-btn:hover span{text-decoration:none !important}
+.contact .mail{margin:18px 0 0;font-size:16.5px;overflow-wrap:anywhere}
+.profiles{display:flex;flex-wrap:wrap;gap:10px 16px;margin-top:14px;font-size:15.5px}
+.profiles a{gap:7px}
+.say-l{color:var(--ink2)}
+.hero .fields{color:var(--ink2)}
 .top nav a{font-weight:600;color:var(--ink2)}
 .top nav a:hover{text-decoration:none;color:var(--forest)}
 .pic img{height:auto}
