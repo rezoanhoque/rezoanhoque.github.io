@@ -1,0 +1,96 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Icon from '../components/Icon.astro';
+import { skills, education, awards } from '../data/experience';
+---
+<Layout title="About" description="About M. R. Hoque: research in empirical corporate finance, financial institutions and machine learning in finance.">
+  <section class="page-head">
+    <div class="wrap narrow">
+      <h1>About Me</h1>
+    </div>
+  </section>
+
+  <div class="wrap narrow page-body">
+    <div class="lede">
+      <p>
+        I am a <strong>Ph.D. candidate in Financial Economics at LSU New Orleans</strong>. I work in empirical
+        corporate finance and financial institutions, on how information reaches prices, financing and trading:
+        what sell-side analysts and corporate insiders do with public signals, when banks' unrecognized securities
+        losses become priced crash risk, and how machine learning and large language models can serve as
+        measurement tools in finance.
+      </p>
+      <p>
+        My job market paper, under review at <em>Financial Management</em>, shows that government subsidies act
+        as attention shocks: analyst coverage rises after an award while the content of analyst output does not
+        change, and corporate insiders, not analysts, turn that attention into trading. A paper on bank crash risk
+        in the 2022 UK gilt crisis is in major revision at the <em>Quarterly Review of Economics and Finance</em>,
+        and my work has been accepted at the FMA, SFA and SWFA annual meetings.
+      </p>
+      <p>
+        Before finance, I spent more than seven years in applied economic research, at the Bangladesh Institute of
+        Development Studies, the Policy Research Institute of Bangladesh and WorldFish, and on projects for the
+        USDA, the World Bank and the Asian Development Bank. I hold an M.S. in Agricultural and Applied Economics
+        from Texas Tech University, where my team won 1st Place in the USDA Local Food Economics Data Visualization
+        Challenge, and a B.Sc. and M.Sc. in Economics from IIUM. I am completing an M.Sc. in Computer Science and
+        am on the 2026 to 2027 academic job market.
+      </p>
+    </div>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="/cv/">View Resume <Icon name="arrow" size={17} /></a>
+      <a class="btn btn-ghost" href="/publications/">Publications</a>
+    </div>
+
+    <h2 class="section-title">Research Highlights</h2>
+    <details class="acc" open>
+      <summary>Analysts, insiders and corporate attention</summary>
+      <div class="acc-body">
+        <p>Government subsidies bring firms attention, not information. After a first award, analyst coverage rises while the content of analyst output does not change; insiders trade more, tilt toward selling, and their post-award sales predict returns less well than ordinary insider sales.</p>
+        <p>Related work shows that executives buy their own stock when analysts are pessimistic but do not trade on the firm's public conduct record, and that 44.7 percent of the variance in monthly consensus changes comes from analysts entering and leaving the roster rather than from revised views.</p>
+      </div>
+    </details>
+    <details class="acc">
+      <summary>Banks: hidden losses, crash risk and depositor discipline</summary>
+      <div class="acc-body">
+        <p>Hidden duration losses become priced crash risk only when a salient shock forces investors to revalue long-duration assets. In the 2022 UK gilt crisis, banks with higher pre-shock gilt sensitivity were more likely to crash, while a placebo year shows nothing.</p>
+        <p>A census of 11,622 U.S. banks from 2000 to 2025 shows that depositor discipline is small in normal times and about 10 times larger in the 2008 to 2010 crisis. A further paper studies how markets reprice unrecognized held-to-maturity losses in U.S. bank equity.</p>
+      </div>
+    </details>
+    <details class="acc">
+      <summary>Machine learning and language models as measurement tools</summary>
+      <div class="acc-body">
+        <p>Under one fixed, cost-aware protocol on real market data, deep reinforcement learning does not robustly beat naive 1/N diversification or a well-implemented mean-variance optimizer, and a controlled simulation shows why.</p>
+        <p>Other work compares how large language models and managers allocate capital against q-theory, and measures what earnings calls carry that the 10-K leaves out.</p>
+      </div>
+    </details>
+    <details class="acc">
+      <summary>Development and policy research</summary>
+      <div class="acc-body">
+        <p>Earlier work studies nonfarm income and migration in Bangladesh (<em>Development Policy Review</em>, 2023), Islamic banking and finance, and trade, fuel efficiency and emissions with the GTAP model. I have spoken at the U.S. Department of State's Foreign Service Institute on remittances and on the economy, infrastructure and energy of Bangladesh.</p>
+      </div>
+    </details>
+
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skill-rows">
+      {skills.map((s) => (
+        <div class="skill-row">
+          <p class="g">{s.group}</p>
+          <div class="chips" style="margin-top:0">{s.items.map((i) => <span class="chip">{i}</span>)}</div>
+        </div>
+      ))}
+    </div>
+
+    <h2 class="section-title">Education</h2>
+    <ul class="edu">
+      {education.map((e) => (
+        <li><div><p class="d">{e.degree}</p><p class="sch">{e.school}</p></div><p class="y">{e.year}</p></li>
+      ))}
+    </ul>
+
+    <h2 class="section-title">Honors and Awards</h2>
+    <ul class="edu">
+      {awards.map((a) => (
+        <li><div><p class="d">{a.title}</p><p class="sch">{a.org}</p></div><p class="y">{a.year}</p></li>
+      ))}
+    </ul>
+  </div>
+</Layout>

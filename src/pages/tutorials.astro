@@ -1,0 +1,51 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Icon from '../components/Icon.astro';
+import { courses } from '../data/tutorials';
+---
+<Layout title="Tutorials" description="Lecture videos for Investments and Principles of Macroeconomics by M. R. Hoque.">
+  <section class="page-head">
+    <div class="wrap narrow">
+      <h1>Tutorials</h1>
+      <p class="sub">Lecture videos from the courses I teach at LSU New Orleans.</p>
+    </div>
+  </section>
+
+  <div class="wrap narrow page-body">
+    {courses.map((c) => {
+      const hasVideos = c.playlist || c.lectures.some((l) => l.youtube);
+      return (
+        <article class="card course">
+          <div class="course-head">
+            <div>
+              <h2>{c.code ? `${c.code}: ${c.title}` : c.title}</h2>
+              <p class="meta">{c.format}, {c.term}</p>
+            </div>
+          </div>
+          <p class="sum">{c.summary}</p>
+          {c.playlist && (
+            <div class="video" style="margin-top:18px">
+              <iframe src={`https://www.youtube-nocookie.com/embed/videoseries?list=${c.playlist}`} title={`${c.title} lectures`} loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          )}
+          {!c.playlist && hasVideos && (
+            <div class="videos">
+              {c.lectures.filter((l) => l.youtube).map((l) => (
+                <div class="video">
+                  <iframe src={`https://www.youtube-nocookie.com/embed/${l.youtube}`} title={l.title} loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe>
+                  <p>{l.title}</p>
+                </div>
+              ))}
+            </div>
+          )}
+          {!hasVideos && (
+            <div class="soon">
+              <span class="ic"><Icon name="video" size={20} /></span>
+              <div><strong>Videos coming soon</strong><span>The lecture recordings for this course are being edited and will be posted here.</span></div>
+            </div>
+          )}
+        </article>
+      );
+    })}
+  </div>
+</Layout>

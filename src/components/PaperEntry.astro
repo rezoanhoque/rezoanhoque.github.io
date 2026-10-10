@@ -1,0 +1,72 @@
+---
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+import { ME, type Paper } from '../data/papers';
+
+interface Props {
+  paper: Paper;
+  compact?: boolean; // home page list: title, venue and tag only
+}
+const { paper: p, compact = false } = Astro.props;
+
+const figs = import.meta.glob<{ default: ImageMetadata }>('../assets/figs/*.png', { eager: true });
+const fig = p.fig ? figs[`../assets/figs/${p.fig.file}`]?.default : undefined;
+
+const tagClass: Record<string, string> = {
+  published: 'tag-pub',
+  'under-review': 'tag-review',
+  revision: 'tag-revision',
+  working: 'tag-working',
+  chapter: 'tag-chapter',
+  press: 'tag-working',
+};
+---
+{compact ? (
+  <li class="pub-mini">
+    <a href={`/publications/#${p.id}`} class="pub-mini-title">{p.title}</a>
+    <p class="pub-mini-meta">
+      {p.venue && <em>{p.venue}</em>}{p.venue && p.note && '. '}{p.note}
+      {p.statusLabel && <span class:list={['tag', tagClass[p.status]]}>{p.statusLabel}</span>}
+    </p>
+  </li>
+) : (
+  <article class:list={['paper', { 'has-fig': !!fig }]} id={p.id}>
+    <div class="paper-text">
+      {p.authors.length > 0 && (
+        <p class="paper-authors">
+          {p.authors.map((a, i) => (
+            <>
+              {a === ME ? <strong>{a}</strong> : a}
+              {i < p.authors.length - 2 ? ', ' : i === p.authors.length - 2 ? ' and ' : ''}
+            </>
+          ))}
+        </p>
+      )}
+      <h3 class="paper-title">{p.title}</h3>
+      {(p.venue || p.detail) && (
+        <p class="paper-venue">
+          {p.venue && <em>{p.venue}</em>}{p.venue && p.detail && ', '}{p.detail}
+        </p>
+      )}
+      <div class="paper-tags">
+        {p.statusLabel && <span class:list={['tag', tagClass[p.status]]}>{p.statusLabel}</span>}
+        {p.note && <span class="tag tag-note">{p.note}</span>}
+      </div>
+      {p.lead && <p class="paper-lead">{p.lead}</p>}
+      {p.abstract && (
+        <details class="abstract">
+          <summary>Abstract</summary>
+          <p>{p.abstract}</p>
+        </details>
+      )}
+    </div>
+    {fig && p.fig && (
+      <figure class="paper-fig">
+        <a href={fig.src} class="zoom" data-caption={`${p.fig.title} ${p.fig.caption}`}>
+          <Image src={fig} alt={p.fig.title} widths={[420, 840]} sizes="(max-width: 760px) 100vw, 340px" />
+        </a>
+        <figcaption><strong>{p.fig.title}</strong> {p.fig.caption}</figcaption>
+      </figure>
+    )}
+  </article>
+)}

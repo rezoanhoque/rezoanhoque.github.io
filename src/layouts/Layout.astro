@@ -1,0 +1,153 @@
+---
+import '@fontsource-variable/inter';
+import '../styles/global.css';
+import { Image } from 'astro:assets';
+import Icon from '../components/Icon.astro';
+import headshot from '../assets/img/headshot.jpg';
+import { site, nav, profiles } from '../data/site';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+const { title, description = site.description } = Astro.props;
+const pageTitle = title ? `${title} | ${site.name}` : `${site.name} | ${site.role}`;
+const path = Astro.url.pathname.replace(/index\.html$/, '');
+const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWith(href));
+const year = new Date().getFullYear();
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <script is:inline>
+      try {
+        if (localStorage.getItem('theme') === 'dark') document.documentElement.dataset.theme = 'dark';
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="topbar">
+      <div class="wrap topbar-in">
+        <a class="brand" href="/" aria-label={`${site.name}, home`}>
+          <Image src={headshot} alt="" width={72} height={72} class="brand-pic" />
+          <span>{site.name}</span>
+        </a>
+        <nav class="nav" id="nav" aria-label="Main">
+          {nav.map((n) => (
+            <a href={n.href} class:list={[{ active: isActive(n.href) }]} aria-current={isActive(n.href) ? 'page' : undefined}>{n.label}</a>
+          ))}
+        </nav>
+        <div class="top-actions">
+          <a class="btn-outline resume" href="/cv/">Resume</a>
+          <button class="icon-btn" id="theme" type="button" aria-label="Switch light or dark theme">
+            <Icon name="moon" class="i-moon" /><Icon name="sun" class="i-sun" />
+          </button>
+          <button class="icon-btn menu-btn" id="menu" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+            <Icon name="menu" class="i-open" /><Icon name="close" class="i-close" />
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <slot />
+    </main>
+
+    <footer class="footer">
+      <div class="wrap footer-grid">
+        <div>
+          <p class="f-name">{site.name}</p>
+          <p>{site.role}</p>
+          <p>{site.department}</p>
+          <p>{site.school}</p>
+        </div>
+        <div>
+          <p class="f-head">Quick links</p>
+          <ul class="f-links">
+            <li><a href="/publications/">Publications</a></li>
+            <li><a href="/experience/">Experience</a></li>
+            <li><a href="/presentations/">Presentations</a></li>
+            <li><a href={site.cv} download>Download CV</a></li>
+            <li><a href="/contact/">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="f-head">Connect</p>
+          <div class="f-icons">
+            {profiles.map((p) => (
+              <a href={p.url} aria-label={p.label} title={p.label}><Icon name={p.icon} size={18} /></a>
+            ))}
+            <a href={`mailto:${site.email}`} aria-label="Email" title="Email"><Icon name="mail" size={18} /></a>
+          </div>
+          <p class="f-mail"><a href={`mailto:${site.email}`}>{site.email}</a></p>
+        </div>
+      </div>
+      <div class="wrap f-bottom">© {year} {site.name}. All rights reserved.</div>
+    </footer>
+
+    <div class="lightbox" id="lightbox" hidden>
+      <button class="lb-close" type="button" aria-label="Close"><Icon name="close" size={22} /></button>
+      <figure><img alt="" /><figcaption></figcaption></figure>
+    </div>
+
+    <script>
+      // Theme switch
+      const root = document.documentElement;
+      document.getElementById('theme')?.addEventListener('click', () => {
+        const dark = root.dataset.theme !== 'dark';
+        if (dark) root.dataset.theme = 'dark';
+        else delete root.dataset.theme;
+        try { localStorage.setItem('theme', dark ? 'dark' : 'light'); } catch (e) {}
+      });
+
+      // Mobile menu
+      const menu = document.getElementById('menu');
+      menu?.addEventListener('click', () => {
+        const open = document.body.classList.toggle('nav-open');
+        menu.setAttribute('aria-expanded', String(open));
+      });
+
+      // Lightbox for figures and gallery photos
+      const lb = document.getElementById('lightbox') as HTMLDivElement | null;
+      const lbImg = lb?.querySelector('img');
+      const lbCap = lb?.querySelector('figcaption');
+      document.querySelectorAll<HTMLAnchorElement>('a.zoom').forEach((a) => {
+        a.addEventListener('click', (ev) => {
+          if (!lb || !lbImg || !lbCap) return;
+          ev.preventDefault();
+          lbImg.src = a.href;
+          lbImg.alt = a.querySelector('img')?.alt ?? '';
+          lbCap.textContent = a.dataset.caption ?? '';
+          lb.hidden = false;
+          document.body.classList.add('lb-open');
+        });
+      });
+      const closeLb = () => { if (lb) { lb.hidden = true; document.body.classList.remove('lb-open'); } };
+      lb?.addEventListener('click', (ev) => { if (ev.target === lb || (ev.target as Element).closest('.lb-close')) closeLb(); });
+      document.addEventListener('keydown', (ev) => { if (ev.key === 'Escape') closeLb(); });
+
+      // Name pronunciation
+      document.querySelectorAll<HTMLButtonElement>('[data-audio]').forEach((b) => {
+        let audio: HTMLAudioElement | null = null;
+        b.addEventListener('click', () => {
+          if (!audio) {
+            audio = new Audio(b.dataset.audio);
+            audio.addEventListener('ended', () => b.classList.remove('playing'));
+          }
+          if (audio.paused) { audio.currentTime = 0; audio.play(); b.classList.add('playing'); }
+          else { audio.pause(); b.classList.remove('playing'); }
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Icon from '../components/Icon.astro';
+import { site } from '../data/site';
+---
+<Layout title="Resume" description="Curriculum vitae of M. R. Hoque.">
+  <section class="page-head">
+    <div class="wrap">
+      <h1>Resume</h1>
+      <p class="sub">My full CV: research, teaching, presentations and skills. Last updated {site.cvUpdated}.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href={site.cv} download><Icon name="download" size={17} /> Download CV (PDF)</a>
+        <a class="btn btn-ghost" href={site.cv} target="_blank" rel="noopener"><Icon name="external" size={17} /> Open in a new tab</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap page-body">
+    <iframe class="cv-frame" src={`${site.cv}#view=FitH`} title="CV of M. R. Hoque"></iframe>
+    <div class="card cv-mobile">
+      <p><strong>The CV preview works best on a computer.</strong> Use the buttons above to download the PDF or open it on your device.</p>
+    </div>
+  </div>
+</Layout>

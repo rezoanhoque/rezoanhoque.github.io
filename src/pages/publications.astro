@@ -1,0 +1,33 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PaperEntry from '../components/PaperEntry.astro';
+import { jmp, underReview, journalArticles, chapters, workingPapers, press, type Paper } from '../data/papers';
+
+const groups: [string, string, Paper[]][] = [
+  ['job-market-paper', 'Job Market Paper', [jmp]],
+  ['under-review', 'Under Review', underReview],
+  ['journal-articles', 'Peer-Reviewed Journal Articles', journalArticles],
+  ['book-chapters', 'Book Chapters', chapters],
+  ['working-papers', 'Working Papers', workingPapers],
+  ['press', 'Op-Eds and Press', press],
+];
+---
+<Layout title="Publications" description="Papers, publications and working papers of M. R. Hoque, with abstracts.">
+  <section class="page-head">
+    <div class="wrap">
+      <h1>Publications</h1>
+      <p class="sub">Papers under review, published work and working papers. Click Abstract to read a summary.</p>
+    </div>
+  </section>
+
+  <div class="wrap page-body">
+    {groups.map(([id, label, list]) => (
+      <section id={id}>
+        <h2 class="section-title">{label}</h2>
+        <div class="card pub-group">
+          {list.map((p) => <PaperEntry paper={p} />)}
+        </div>
+      </section>
+    ))}
+  </div>
+</Layout>

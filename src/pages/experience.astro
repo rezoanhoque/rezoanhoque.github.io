@@ -1,0 +1,52 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { teaching, research, collaborators, type Role } from '../data/experience';
+
+const groups: [string, string, Role[]][] = [
+  ['teaching', 'Teaching', teaching],
+  ['research', 'Research', research],
+];
+---
+<Layout title="Experience" description="Teaching, research positions and research collaborations of M. R. Hoque.">
+  <section class="page-head">
+    <div class="wrap narrow">
+      <h1>Professional Experience</h1>
+      <p class="sub">Teaching at LSU New Orleans and Texas Tech, research positions in the United States and Bangladesh, and current research collaborations.</p>
+    </div>
+  </section>
+
+  <div class="wrap narrow page-body">
+    {groups.map(([id, label, roles]) => (
+      <section id={id}>
+        <h2 class="section-title">{label}</h2>
+        {roles.map((r) => (
+          <article class="card role-card">
+            <div class="role-head">
+              <div>
+                <h3>{r.title}</h3>
+                <p class="role-org">{r.org}</p>
+                {r.place && <p class="role-place">{r.place}</p>}
+              </div>
+              <span class:list={['tag', r.current ? 'tag-pub' : 'tag-date']}>{r.dates}</span>
+            </div>
+            {r.summary && <p class="role-sum">{r.summary}</p>}
+            {r.items && <ul>{r.items.map((i) => <li>{i}</li>)}</ul>}
+          </article>
+        ))}
+      </section>
+    ))}
+
+    <section id="collaborations">
+      <h2 class="section-title">Research Collaborations</h2>
+      <div class="collab-grid">
+        {collaborators.map((c) => (
+          <div class="card collab">
+            <p class="name">{c.name}</p>
+            <p class="org">{c.org}</p>
+            <p class="work">{c.work}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  </div>
+</Layout>

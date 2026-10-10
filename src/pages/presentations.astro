@@ -1,0 +1,41 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { conference, invited, posters, type Talk } from '../data/presentations';
+
+const total = conference.length + invited.length + posters.length;
+const groups: [string, string, Talk[]][] = [
+  ['conference', 'Conference Presentations', conference],
+  ['invited', 'Invited Talks', invited],
+  ['posters', 'Poster Presentations', posters],
+];
+---
+<Layout title="Presentations" description="Conference presentations, invited talks and posters by M. R. Hoque.">
+  <section class="page-head">
+    <div class="wrap narrow">
+      <h1>Presentations</h1>
+      <p class="sub count-line">{total} presentations: {conference.length} conference, {invited.length} invited, {posters.length} poster.</p>
+    </div>
+  </section>
+
+  <div class="wrap narrow page-body">
+    {groups.map(([id, label, list]) => (
+      <section id={id}>
+        <h2 class="section-title">{label}</h2>
+        <div class="card" style="padding-top:8px;padding-bottom:8px">
+          <ul class="talks">
+            {list.map((t) => (
+              <li class="talk">
+                <p class="talk-date">{t.date}</p>
+                <div>
+                  <p class="talk-title">"{t.title}"{t.tag && <span class:list={['tag', t.tag === 'Accepted' ? 'tag-review' : 'tag-date']}>{t.tag}</span>}</p>
+                  <p class="talk-event">{t.event}{t.place && `, ${t.place}`}.</p>
+                  {t.with && <p class="talk-with">With {t.with}</p>}
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    ))}
+  </div>
+</Layout>

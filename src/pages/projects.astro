@@ -1,0 +1,53 @@
+---
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+import Layout from '../layouts/Layout.astro';
+import { tools, researchProjects } from '../data/projects';
+
+const imgs = import.meta.glob<{ default: ImageMetadata }>('../assets/gallery/*.jpg', { eager: true });
+const img = (f?: string) => (f ? imgs[`../assets/gallery/${f}`]?.default : undefined);
+---
+<Layout title="Projects" description="Tools, data visualization and research projects by M. R. Hoque.">
+  <section class="page-head">
+    <div class="wrap">
+      <h1>Projects</h1>
+      <p class="sub">Tools and data work, and research projects for the USDA, the Asian Development Bank, WorldFish, the International Growth Centre and research institutes in Bangladesh.</p>
+    </div>
+  </section>
+
+  <div class="wrap page-body">
+    <h2 class="section-title">Tools and Data Visualization</h2>
+    <div class="tool-list">
+      {tools.map((p) => {
+        const im = img(p.image);
+        return (
+          <article class:list={['card', 'proj', 'tool', { 'with-img': !!im }]}>
+            {im && (
+              <a href={im.src} class="zoom tool-img" data-caption={p.title}>
+                <Image src={im} alt={p.title} widths={[300, 600]} sizes="300px" />
+              </a>
+            )}
+            <div>
+              <p class="proj-kind">{p.kind}</p>
+              <h3>{p.title}</h3>
+              <p class="s">{p.summary}</p>
+              {p.tags && <div class="chips">{p.tags.map((t) => <span class="chip">{t}</span>)}</div>}
+              {p.status && <p class="proj-status">{p.status}</p>}
+            </div>
+          </article>
+        );
+      })}
+    </div>
+
+    <h2 class="section-title" style="margin-top:52px">Research Projects</h2>
+    <div class="rp-grid">
+      {researchProjects.map((p) => (
+        <article class="card rp">
+          <p class="k">{p.kind}</p>
+          <h3>{p.title}</h3>
+          <p>{p.summary}</p>
+        </article>
+      ))}
+    </div>
+  </div>
+</Layout>

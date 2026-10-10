@@ -1,0 +1,100 @@
+---
+import { Image } from 'astro:assets';
+import Layout from '../layouts/Layout.astro';
+import Icon from '../components/Icon.astro';
+import PaperEntry from '../components/PaperEntry.astro';
+import headshot from '../assets/img/headshot.jpg';
+import jmpFig from '../assets/figs/jmp_fig.png';
+import { site, profiles } from '../data/site';
+import { jmp, jmpFindings, recent } from '../data/papers';
+import { tools } from '../data/projects';
+---
+<Layout>
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <h1>{site.name}</h1>
+        <p class="role">{site.role}</p>
+        <p class="fields">{site.fields.map((f, i) => <>{i > 0 && ' '}<span>{f}</span></>)}</p>
+        <p class="affil">{site.department} · <a href={site.schoolUrl}>{site.school}</a></p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="/experience/">View Experience <Icon name="arrow" size={17} /></a>
+          <a class="btn btn-ghost" href={site.cv} download><Icon name="download" size={17} /> Download CV</a>
+        </div>
+        <div class="round-links">
+          {profiles.map((p) => (
+            <a href={p.url} aria-label={p.label} title={p.label}><Icon name={p.icon} size={18} /></a>
+          ))}
+          <a href={`mailto:${site.email}`} aria-label="Email" title={site.email}><Icon name="mail" size={18} /></a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <Image src={headshot} alt={`Portrait of ${site.name}`} widths={[270, 540]} sizes="270px" loading="eager" />
+        <div class="say">
+          <button class="say-btn" type="button" data-audio="/audio/name.mp3" aria-label="Play how to pronounce my name"><Icon name="play" size={15} /></button>
+          <span class="say-text"><strong>How to pronounce my name</strong>Listen</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap stack">
+      <div class="card">
+        <h2 class="card-title">Recent Papers</h2>
+        <ul class="pub-mini-list">
+          {recent.map((p) => <PaperEntry paper={p} compact />)}
+        </ul>
+        <a class="more" href="/publications/">View all publications <Icon name="arrow" size={16} /></a>
+      </div>
+
+      <article class="card feature">
+        <p class="eyebrow">Job market paper</p>
+        <h2>{jmp.title}</h2>
+        <p class="by">With J. A. Pérez-Amuedo, R. Houston and M. K. Hassan. Under review at <em>Financial Management</em>. Accepted for presentation at the FMA 2026 Annual Meeting.</p>
+        <div class="feature-grid">
+          <figure class="feature-fig">
+            <a href={jmpFig.src} class="zoom" data-caption={`${jmp.fig?.title} ${jmp.fig?.caption}`}>
+              <Image src={jmpFig} alt={jmp.fig?.title ?? ''} widths={[520, 1040]} sizes="(max-width: 860px) 100vw, 520px" />
+            </a>
+            <figcaption><strong>{jmp.fig?.title}</strong> {jmp.fig?.caption}</figcaption>
+          </figure>
+          <div>
+            <p class="lead">{jmp.lead}</p>
+            <ul class="findings">
+              {jmpFindings.map(([h, t]) => <li><strong>{h}:</strong> {t}</li>)}
+            </ul>
+            <div class="feature-links">
+              <a href="/publications/#jmp">Read the abstract <Icon name="arrow" size={15} /></a>
+              <a href="/presentations/">FMA 2026 presentation <Icon name="arrow" size={15} /></a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <div class="two-col">
+        <div class="card">
+          <h2 class="card-title">Current Roles</h2>
+          <ul class="dot-list">
+            <li><p class="t">Instructor of Record, LSU New Orleans</p><p class="s">Principles of Macroeconomics (Fall 2026); Investments (Summer 2026)</p></li>
+            <li><p class="t">Graduate Research Assistant, Division of Business and Economic Research</p><p class="s">LSU New Orleans, 2024 to present</p></li>
+            <li><p class="t">Research with M. Kabir Hassan and José A. Pérez-Amuedo</p><p class="s">Bank risk, analysts and insiders, depositor discipline</p></li>
+          </ul>
+          <a class="more" href="/experience/">View all experience <Icon name="arrow" size={16} /></a>
+        </div>
+        <div class="card">
+          <h2 class="card-title">Projects</h2>
+          <div class="mini-cards">
+            {tools.map((t) => (
+              <a class="mini-card" href="/projects/" style="display:block;text-decoration:none">
+                <p class="t">{t.title}</p>
+                <p class="s">{t.status ?? t.summary}</p>
+              </a>
+            ))}
+          </div>
+          <a class="more" href="/projects/">View all projects <Icon name="arrow" size={16} /></a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
