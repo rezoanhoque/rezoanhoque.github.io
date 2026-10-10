@@ -1,0 +1,10 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {analyze,compare,parseLM,words,LIMIT} from '../src/lib/disclosure.ts';
+const lex={positive:['strong'],negative:['loss'],uncertainty:['may']};
+test('exact counts and denominator, not substrings',()=>{const r=analyze('Strong strong loss may stronger.',lex);assert.equal(r.words,5);assert.equal(r.totals.positive,2);assert.equal(r.netTone,20);assert.equal(r.rates.uncertainty,20);});
+test('identical texts have zero gaps; swapping reverses signs',()=>{const a='Strong growth.',b='Loss may persist.';const same=compare(a,a,lex);assert.ok(Object.values(same.gaps).every(x=>x===0));const x=compare(a,b,lex),y=compare(b,a,lex);for(const k of Object.keys(x.gaps))assert.equal(x.gaps[k],-y.gaps[k]);});
+test('decimal, apostrophe, punctuation and blank input',()=>{assert.deepEqual(words("Profit is 3.14. Company's year-end."),['profit','is','3.14',"company's",'year','end']);assert.equal(analyze('Revenue was 3.14 million. Loss fell.',lex).sentences,2);assert.throws(()=>analyze('!!!',lex));assert.throws(()=>analyze('a'.repeat(LIMIT+1),lex));});
+test('ARI uses letters and digits, raw formula',()=>{const r=analyze('The cat sat.',lex);assert.equal(r.characters,9);assert.equal(r.sentences,1);assert.ok(Math.abs(r.ari-(4.71*3+0.5*3-21.43))<1e-10);});
+test('LM CSV handles quotes and excludes removed categories',()=>{const csv='\uFEFFWord,Positive,Negative,Uncertainty,Note\r\n"STRONG",2009,0,0,"has, comma"\r\nLOSS,0,2009,0,ok\r\nMAY,0,0,2009,ok\r\nREMOVED,-2020,0,0,ok';assert.deepEqual(parseLM(csv),lex);assert.throws(()=>parseLM('wrong,headers\nx,1'));});
+test('negation remains literal and duplicate dictionary entries do not double count',()=>{assert.equal(analyze('Not strong.',{...lex,positive:['strong','strong']}).totals.positive,1);});
