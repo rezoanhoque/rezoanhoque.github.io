@@ -2,7 +2,7 @@
 const links = [['Home','/'],['About','/about/'],['Experience','/experience/'],['Publications','/publications/'],['Presentations','/presentations/'],['Projects','/projects/'],['Tutorials','/tutorials/'],['Gallery','/gallery/'],['Contact','/contact/']];
 ---
 <header class="topbar"><div class="wrap topbar-in">
-  <a class="brand" href="/" aria-label="M. R. Hoque, home"><span class="monogram">MRH<span>FINANCIAL ECONOMICS</span></span></a>
+  <a class="brand" href="/" aria-label="M. R. Hoque, home">M. R. Hoque</a>
   <nav class="nav" id="nav" aria-label="Main navigation">{links.map(([label,href]) => <a href={href} class:list={{active:Astro.url.pathname===href}} aria-current={Astro.url.pathname===href?'page':undefined}>{label}</a>)}</nav>
   <div class="top-actions">
     <a class="btn-outline resume" href="/cv/" aria-current={Astro.url.pathname==='/cv/'?'page':undefined}>Resume</a>
