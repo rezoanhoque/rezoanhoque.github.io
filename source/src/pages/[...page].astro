@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+const titles: Record<string, string> = { index:'Financial Economics Research & Teaching', about:'About', experience:'Experience', publications:'Publications', presentations:'Presentations', projects:'Projects', gallery:'Gallery', contact:'Contact', cv:'Resume' };
+export function getStaticPaths() {
+  return ['index','about','experience','publications','presentations','projects','gallery','contact','cv'].map(page => ({ params: { page: page === 'index' ? undefined : page }, props: { key: page } }));
+}
+const { key } = Astro.props;
+const files = import.meta.glob('../content/*.html', { query:'?raw', import:'default', eager:true });
+const content = files[`../content/${key}.html`] as string;
+---
+<Layout title={titles[key]}><Fragment set:html={content} /></Layout>

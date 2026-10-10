@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { courses } from '../data/courses';
+---
+<Layout title="Tutorials">
+  <section class="page-head"><div class="wrap"><h1>Tutorials</h1><p>Course resources and video tutorials for my students.</p></div></section>
+  <section class="band"><div class="wrap">
+    <nav class="course-nav" aria-label="Courses">{courses.map(course => <a href={`#${course.id}`}>{course.title}</a>)}</nav>
+    {courses.map(course => <article class="card course" id={course.id}>
+      <h2>{course.title}</h2><p class="meta">{course.term}</p><p class="sum">{course.description}</p>
+      {course.lessons.length ? <div class="videos">{course.lessons.map(lesson => <div class="video">
+        {/\.mp4(?:\?|$)/i.test(lesson.url) && <video controls preload="metadata" aria-label={lesson.title}><source src={lesson.url} type="video/mp4" />Your browser cannot play this video.</video>}
+        <p><a href={lesson.url} target="_blank" rel="noopener noreferrer">{lesson.title} ↗</a></p>
+        {lesson.description && <p>{lesson.description}</p>}
+      </div>)}</div> : <div class="soon"><div><strong>Video library coming soon</strong><span>Recordings will appear here when available.</span></div></div>}
+    </article>)}
+  </div></section>
+</Layout>

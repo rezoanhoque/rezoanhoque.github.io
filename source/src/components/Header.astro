@@ -1,0 +1,19 @@
+---
+const links = [['Home','/'],['About','/about/'],['Experience','/experience/'],['Publications','/publications/'],['Presentations','/presentations/'],['Projects','/projects/'],['Tutorials','/tutorials/'],['Gallery','/gallery/'],['Contact','/contact/']];
+---
+<header class="topbar"><div class="wrap topbar-in">
+  <a class="brand" href="/" aria-label="M. R. Hoque, home"><span class="monogram">MRH<span>FINANCIAL ECONOMICS</span></span></a>
+  <nav class="nav" id="nav" aria-label="Main navigation">{links.map(([label,href]) => <a href={href} class:list={{active:Astro.url.pathname===href}} aria-current={Astro.url.pathname===href?'page':undefined}>{label}</a>)}</nav>
+  <div class="top-actions">
+    <a class="btn-outline resume" href="/cv/" aria-current={Astro.url.pathname==='/cv/'?'page':undefined}>Resume</a>
+    <button class="icon-btn" id="theme" type="button" aria-label="Switch light or dark theme"><svg class="i-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 1 1 9.5 3.5a7 7 0 0 0 11 11z"/></svg><svg class="i-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l2 2M17 17l2 2M5 19l2-2M17 7l2-2"/></svg></button>
+    <button class="search-trigger" type="button" aria-label="Search pages (Control or Command K)"><kbd>⌘K</kbd></button>
+    <button class="icon-btn menu-btn" id="menu" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+  </div>
+</div></header>
+<dialog class="search-dialog" aria-labelledby="search-title">
+  <div class="search-heading"><h2 id="search-title">Go to a page</h2><button type="button" aria-label="Close search">Esc</button></div>
+  <label for="page-search" class="sr-only">Search pages</label><input id="page-search" type="search" placeholder="Search pages…" autocomplete="off" />
+  <nav aria-label="Search results">{[...links,['Resume','/cv/']].map(([label,href])=><a href={href}>{label}<span aria-hidden="true">↗</span></a>)}</nav>
+  <p class="search-empty" hidden>No matching pages.</p>
+</dialog>

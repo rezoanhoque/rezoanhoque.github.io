@@ -1,0 +1,34 @@
+---
+import Header from '../components/Header.astro';
+import footer from '../content/footer.html?raw';
+import '../styles/base.css';
+import '../styles/refinements.css';
+interface Props { title: string; description?: string }
+const { title, description = 'Mohammad Rezoanul Hoque: financial economics research, teaching, publications, and projects.' } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} | M. R. Hoque</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content={`${title} | M. R. Hoque`} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <script is:inline>try { if(localStorage.getItem('theme') === 'dark') document.documentElement.dataset.theme='dark'; } catch {}</script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <Header />
+    <main id="main"><slot /></main>
+    <Fragment set:html={footer} />
+    <dialog class="photo-dialog" aria-label="Image preview">
+      <button type="button" class="lb-close" aria-label="Close image preview">×</button>
+      <figure><img alt="" /><figcaption></figcaption></figure>
+    </dialog>
+    <script src="../scripts/interactions.ts"></script>
+  </body>
+</html>
