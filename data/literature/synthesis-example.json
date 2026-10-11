@@ -1,0 +1,37 @@
+{
+  "query": "How does depositor heterogeneity affect market discipline and bank runs?",
+  "status": "worked_example",
+  "generatedAt": "2026-10-11",
+  "scope": {
+    "evidence": "Two publisher-deposited abstracts were inspected. This is a worked example, not a systematic review or an answer generated for your current search.",
+    "sourcesReviewed": 2,
+    "novelty": "The proposed extension has not been checked against the wider or more recent literature."
+  },
+  "report": {
+    "main_idea": {"text": "Depositor discipline is not uniform. In the studies illustrated here, both the setting and the composition of depositors matter for understanding withdrawals and bank fragility.", "citations": ["S1", "S2"]},
+    "findings": [
+      {"text": "In Argentina, Chile, and Mexico during the 1980s and 1990s, depositors responded to bank risk through withdrawals and required rates; deposit insurance did not appear to remove that discipline.", "citations": ["S1"]},
+      {"text": "Within one bank facing two runs, some relationship groups behaved differently under low versus high solvency risk. Account age and transaction history also distinguished withdrawal behavior.", "citations": ["S2"]}
+    ],
+    "disagreements": [{"text": "These findings are not a direct contradiction: they concern different settings and levels of analysis. The supplied abstracts do not establish that a single effect applies across countries, periods, or depositor groups.", "citations": ["S1", "S2"]}],
+    "limitations": [{"text": "Abstract-level evidence cannot establish the full identification strategy, robustness checks, or whether a proposed extension was discussed elsewhere in either paper. Those details require full-text review.", "citations": ["S1", "S2"]}],
+    "research_directions": [{
+      "question": "Do digital withdrawal channels change the relationship between depositor ties and sensitivity to solvency news?",
+      "motivation": "The heterogeneous responses motivate a possible extension to a different information and withdrawal environment. This is an analyst-suggested direction, not an author-stated or verified research gap.",
+      "citations": ["S2"],
+      "basis": "suggested_extension",
+      "status": "hypothesis_not_verified_gap",
+      "proposed_data": "Would require account-level transaction histories, channel use, relationship measures, and dated risk signals. Access and measurement feasibility must be established first.",
+      "proposed_design": "If a plausibly external change in channel access exists, compare responses around risk events across exposure groups. Test pre-trends and depositor selection; without credible variation, present descriptive evidence rather than causal claims.",
+      "novelty_checks": ["Search newer work on digital bank runs, mobile banking, relationship banking, and depositor networks.", "Read full texts and citation chains to determine whether this exact interaction has already been studied.", "Check whether available data can separate risk information from convenience and account composition."]
+    }],
+    "paper_summaries": [
+      {"source_id":"S1","main_idea":"Interaction of deposit insurance, crises, and market discipline.","method":"Empirical analysis; exact estimator not reported in the supplied abstract.","sample":"Argentina, Chile, and Mexico; 1980s–1990s.","findings":"Discipline persists, while crisis conditions alter depositor responses.","limitations":"Author-stated limitations not reported in the supplied abstract."},
+      {"source_id":"S2","main_idea":"Differences in depositor responses to solvency shocks.","method":"Depositor-level comparison across two runs; exact estimator not reported in the supplied abstract.","sample":"One bank experiencing two different runs.","findings":"Responses differ by relationship, account history, and shock severity.","limitations":"Author-stated limitations not reported in the supplied abstract."}
+    ]
+  },
+  "sources": [
+    {"id":"S1","doi":"10.1111/0022-1082.00354","title":"Do Depositors Punish Banks for Bad Behavior? Market Discipline, Deposit Insurance, and Banking Crises","journal":"Journal of Finance","year":2001,"url":"https://doi.org/10.1111/0022-1082.00354","evidence_type":"abstract"},
+    {"id":"S2","doi":"10.1111/jofi.12424","title":"A Tale of Two Runs: Depositor Responses to Bank Solvency Risk","journal":"Journal of Finance","year":2016,"url":"https://doi.org/10.1111/jofi.12424","evidence_type":"abstract"}
+  ]
+}
