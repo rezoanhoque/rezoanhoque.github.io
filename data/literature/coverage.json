@@ -1,32 +1,200 @@
 {
   "coverage": [
     {
-      "journal": "American Economic Journal Applied Economics",
+      "journal": "Abacus",
       "records": 100,
-      "abstracts": 88,
-      "first_year": 2009,
-      "last_year": 2011
+      "abstracts": 69,
+      "first_year": 1997,
+      "last_year": 2002
     },
     {
-      "journal": "American Economic Journal Economic Policy",
+      "journal": "Accounting and Business Research",
       "records": 100,
-      "abstracts": 87,
-      "first_year": 2009,
+      "abstracts": 0,
+      "first_year": 2007,
+      "last_year": 2010
+    },
+    {
+      "journal": "Accounting and Finance",
+      "records": 100,
+      "abstracts": 96,
+      "first_year": 1998,
+      "last_year": 2004
+    },
+    {
+      "journal": "Accounting and the Public Interest",
+      "records": 100,
+      "abstracts": 74,
+      "first_year": 2001,
+      "last_year": 2013
+    },
+    {
+      "journal": "Accounting Auditing and Accountability Journal",
+      "records": 100,
+      "abstracts": 88,
+      "first_year": 1989,
+      "last_year": 2002
+    },
+    {
+      "journal": "Accounting Education",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1997,
+      "last_year": 2001
+    },
+    {
+      "journal": "Accounting Forum",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1999,
+      "last_year": 2003
+    },
+    {
+      "journal": "Accounting Historians Journal",
+      "records": 100,
+      "abstracts": 57,
+      "first_year": 1975,
+      "last_year": 2016
+    },
+    {
+      "journal": "Accounting History",
+      "records": 100,
+      "abstracts": 39,
+      "first_year": 2000,
+      "last_year": 2003
+    },
+    {
+      "journal": "Accounting History Review",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 2011,
+      "last_year": 2014
+    },
+    {
+      "journal": "Accounting Horizons",
+      "records": 100,
+      "abstracts": 57,
+      "first_year": 1999,
+      "last_year": 2008
+    },
+    {
+      "journal": "Accounting in Europe",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 2004,
       "last_year": 2012
     },
     {
-      "journal": "American Economic Journal Macroeconomics",
+      "journal": "Accounting Perspectives",
       "records": 100,
-      "abstracts": 87,
+      "abstracts": 89,
+      "first_year": 2007,
+      "last_year": 2013
+    },
+    {
+      "journal": "Accounting Research Journal",
+      "records": 100,
+      "abstracts": 88,
+      "first_year": 2005,
+      "last_year": 2013
+    },
+    {
+      "journal": "Accounting, Economics and Law – A Convivium",
+      "records": 100,
+      "abstracts": 53,
+      "first_year": 2013,
+      "last_year": 2019
+    },
+    {
+      "journal": "Accounting, Organizations and Society",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1995,
+      "last_year": 2002
+    },
+    {
+      "journal": "Advances in Accounting",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 2000,
+      "last_year": 2007
+    },
+    {
+      "journal": "Advances in Applied Probability",
+      "records": 100,
+      "abstracts": 94,
+      "first_year": 2000,
+      "last_year": 2002
+    },
+    {
+      "journal": "African Journal of Agricultural and Resource Economics",
+      "records": 100,
+      "abstracts": 100,
+      "first_year": 2019,
+      "last_year": 2024
+    },
+    {
+      "journal": "Agenda: a journal of policy analysis and reform",
+      "records": 100,
+      "abstracts": 0,
       "first_year": 2009,
-      "last_year": 2011
+      "last_year": 2018
+    },
+    {
+      "journal": "Agricultural and Resource Economics Review",
+      "records": 100,
+      "abstracts": 64,
+      "first_year": 1993,
+      "last_year": 2015
+    },
+    {
+      "journal": "Agricultural Economics",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1995,
+      "last_year": 2002
+    },
+    {
+      "journal": "Agriculture and Human Values",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1997,
+      "last_year": 2001
+    },
+    {
+      "journal": "Algorithmic Finance",
+      "records": 100,
+      "abstracts": 64,
+      "first_year": 2011,
+      "last_year": 2022
+    },
+    {
+      "journal": "American Economic Journal Applied Economics",
+      "records": 858,
+      "abstracts": 782,
+      "first_year": 2009,
+      "last_year": 2026
+    },
+    {
+      "journal": "American Economic Journal Economic Policy",
+      "records": 918,
+      "abstracts": 844,
+      "first_year": 2009,
+      "last_year": 2026
+    },
+    {
+      "journal": "American Economic Journal Macroeconomics",
+      "records": 759,
+      "abstracts": 684,
+      "first_year": 2009,
+      "last_year": 2026
     },
     {
       "journal": "American Economic Journal Microeconomics",
-      "records": 100,
-      "abstracts": 87,
+      "records": 862,
+      "abstracts": 787,
       "first_year": 2009,
-      "last_year": 2011
+      "last_year": 2026
     },
     {
       "journal": "American Economic Review",
@@ -36,11 +204,389 @@
       "last_year": 2026
     },
     {
+      "journal": "American Economic Review: Insights",
+      "records": 100,
+      "abstracts": 89,
+      "first_year": 2019,
+      "last_year": 2022
+    },
+    {
+      "journal": "American Journal of Agricultural Economics",
+      "records": 100,
+      "abstracts": 62,
+      "first_year": 2000,
+      "last_year": 2003
+    },
+    {
+      "journal": "American Journal of Economics and Sociology",
+      "records": 100,
+      "abstracts": 65,
+      "first_year": 2000,
+      "last_year": 2003
+    },
+    {
+      "journal": "American Journal of Health Economics",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 2015,
+      "last_year": 2019
+    },
+    {
+      "journal": "American Law and Economics Review",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1999,
+      "last_year": 2008
+    },
+    {
+      "journal": "Annals of Actuarial Science",
+      "records": 100,
+      "abstracts": 56,
+      "first_year": 2006,
+      "last_year": 2011
+    },
+    {
+      "journal": "Annals of Applied Probability",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 2000,
+      "last_year": 2002
+    },
+    {
+      "journal": "Annals of Applied Statistics",
+      "records": 100,
+      "abstracts": 83,
+      "first_year": 2007,
+      "last_year": 2008
+    },
+    {
+      "journal": "Annals of Finance",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 2005,
+      "last_year": 2008
+    },
+    {
+      "journal": "Annals of Probability",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1998,
+      "last_year": 2001
+    },
+    {
+      "journal": "Annals of Statistics",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1999,
+      "last_year": 2002
+    },
+    {
+      "journal": "Annals of the Institute of Statistical Mathematics",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1997,
+      "last_year": 2000
+    },
+    {
+      "journal": "Applied Economics",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1996,
+      "last_year": 2002
+    },
+    {
+      "journal": "Applied Finance Letters",
+      "records": 100,
+      "abstracts": 100,
+      "first_year": 2013,
+      "last_year": 2023
+    },
+    {
+      "journal": "Applied Financial Economics",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1996,
+      "last_year": 2002
+    },
+    {
+      "journal": "Applied Mathematical Finance",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1997,
+      "last_year": 2004
+    },
+    {
+      "journal": "Applied Stochastic Models in Business and Industry",
+      "records": 100,
+      "abstracts": 45,
+      "first_year": 1999,
+      "last_year": 2002
+    },
+    {
+      "journal": "ASTIN Bulletin",
+      "records": 100,
+      "abstracts": 79,
+      "first_year": 1997,
+      "last_year": 2004
+    },
+    {
+      "journal": "Auditing: A Journal of Practice and Theory",
+      "records": 100,
+      "abstracts": 67,
+      "first_year": 1999,
+      "last_year": 2007
+    },
+    {
+      "journal": "Australian and New Zealand Journal of Statistics",
+      "records": 100,
+      "abstracts": 93,
+      "first_year": 1998,
+      "last_year": 2003
+    },
+    {
+      "journal": "Australian Journal of Management",
+      "records": 100,
+      "abstracts": 79,
+      "first_year": 2000,
+      "last_year": 2005
+    },
+    {
+      "journal": "Biometrical Journal",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1998,
+      "last_year": 2001
+    },
+    {
+      "journal": "Biometrika",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1996,
+      "last_year": 1999
+    },
+    {
+      "journal": "British Accounting Review",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1993,
+      "last_year": 2002
+    },
+    {
+      "journal": "British Journal of Mathematical and Statistical Psychology",
+      "records": 100,
+      "abstracts": 90,
+      "first_year": 1999,
+      "last_year": 2003
+    },
+    {
+      "journal": "Brookings Papers on Economic Activity",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1970,
+      "last_year": 1979
+    },
+    {
+      "journal": "Cambridge Journal of Economics",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1998,
+      "last_year": 2005
+    },
+    {
+      "journal": "Canadian Journal of Agricultural Economics / Revue Canadienne d Agroeconomie",
+      "records": 100,
+      "abstracts": 85,
+      "first_year": 1999,
+      "last_year": 2004
+    },
+    {
+      "journal": "Canadian Journal of Economics / Revue Canadienne D'Economique",
+      "records": 100,
+      "abstracts": 97,
+      "first_year": 2000,
+      "last_year": 2002
+    },
+    {
+      "journal": "Capital and Class",
+      "records": 100,
+      "abstracts": 39,
+      "first_year": 2000,
+      "last_year": 2001
+    },
+    {
+      "journal": "China Economic Journal",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 2008,
+      "last_year": 2013
+    },
+    {
+      "journal": "China Finance Review International",
+      "records": 100,
+      "abstracts": 84,
+      "first_year": 2010,
+      "last_year": 2015
+    },
+    {
+      "journal": "Climate and Development",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 2009,
+      "last_year": 2012
+    },
+    {
+      "journal": "Climate Change Economics",
+      "records": 100,
+      "abstracts": 90,
+      "first_year": 2010,
+      "last_year": 2014
+    },
+    {
+      "journal": "Communications in Statistics: Theory and Methods",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 2001,
+      "last_year": 2001
+    },
+    {
+      "journal": "Contemporary Accounting Research",
+      "records": 2000,
+      "abstracts": 1322,
+      "first_year": 1984,
+      "last_year": 2023
+    },
+    {
+      "journal": "Critical Finance Review",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 2012,
+      "last_year": 2022
+    },
+    {
+      "journal": "Dynamic Games and Applications",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 2010,
+      "last_year": 2014
+    },
+    {
+      "journal": "Ecological Economics",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1995,
+      "last_year": 2002
+    },
+    {
+      "journal": "Econometric Reviews",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 2001,
+      "last_year": 2006
+    },
+    {
+      "journal": "Econometric Theory",
+      "records": 100,
+      "abstracts": 84,
+      "first_year": 1998,
+      "last_year": 2001
+    },
+    {
       "journal": "Econometrica",
       "records": 7295,
       "abstracts": 551,
       "first_year": 1933,
       "last_year": 2026
+    },
+    {
+      "journal": "Econometrics",
+      "records": 100,
+      "abstracts": 100,
+      "first_year": 2013,
+      "last_year": 2016
+    },
+    {
+      "journal": "Econometrics and Statistics",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 2017,
+      "last_year": 2020
+    },
+    {
+      "journal": "Econometrics Journal",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1998,
+      "last_year": 2003
+    },
+    {
+      "journal": "Economic Theory",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1995,
+      "last_year": 2000
+    },
+    {
+      "journal": "Economic Theory Bulletin",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 2013,
+      "last_year": 2016
+    },
+    {
+      "journal": "Emerging Markets Review",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 2000,
+      "last_year": 2004
+    },
+    {
+      "journal": "Environmetrics",
+      "records": 100,
+      "abstracts": 27,
+      "first_year": 1996,
+      "last_year": 2002
+    },
+    {
+      "journal": "European Economic Review",
+      "records": 2000,
+      "abstracts": 0,
+      "first_year": 1969,
+      "last_year": 2002
+    },
+    {
+      "journal": "European Financial Management",
+      "records": 100,
+      "abstracts": 94,
+      "first_year": 1997,
+      "last_year": 2002
+    },
+    {
+      "journal": "European Journal of the History of Economic Thought",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 2000,
+      "last_year": 2004
+    },
+    {
+      "journal": "Experimental Economics",
+      "records": 934,
+      "abstracts": 884,
+      "first_year": 1998,
+      "last_year": 2026
+    },
+    {
+      "journal": "Finance and Stochastics",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1996,
+      "last_year": 2003
+    },
+    {
+      "journal": "Finance Research Letters",
+      "records": 2000,
+      "abstracts": 0,
+      "first_year": 2004,
+      "last_year": 2021
     },
     {
       "journal": "Financial Management",
@@ -50,11 +596,137 @@
       "last_year": 2026
     },
     {
-      "journal": "Journal of Banking & Finance",
+      "journal": "Games",
       "records": 100,
+      "abstracts": 99,
+      "first_year": 2009,
+      "last_year": 2013
+    },
+    {
+      "journal": "Games and Economic Behavior",
+      "records": 1990,
       "abstracts": 0,
       "first_year": 1989,
+      "last_year": 2011
+    },
+    {
+      "journal": "History of Economics Review",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1994,
+      "last_year": 2016
+    },
+    {
+      "journal": "History of Political Economy",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 2000,
+      "last_year": 2004
+    },
+    {
+      "journal": "Insurance: Mathematics & Economics",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1995,
+      "last_year": 2001
+    },
+    {
+      "journal": "International Economic Review",
+      "records": 2000,
+      "abstracts": 371,
+      "first_year": 1960,
+      "last_year": 2006
+    },
+    {
+      "journal": "International Game Theory Review",
+      "records": 100,
+      "abstracts": 97,
+      "first_year": 1999,
+      "last_year": 2003
+    },
+    {
+      "journal": "International Journal of Forecasting",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1995,
+      "last_year": 2001
+    },
+    {
+      "journal": "International Journal of Game Theory",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1997,
+      "last_year": 2001
+    },
+    {
+      "journal": "International Review of Financial Analysis",
+      "records": 1999,
+      "abstracts": 0,
+      "first_year": 1992,
+      "last_year": 2022
+    },
+    {
+      "journal": "Journal for Studies in Economics & Econometrics",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 2010,
+      "last_year": 2019
+    },
+    {
+      "journal": "Journal of Accounting and Economics",
+      "records": 1866,
+      "abstracts": 0,
+      "first_year": 1979,
+      "last_year": 2026
+    },
+    {
+      "journal": "Journal of Accounting Research",
+      "records": 2682,
+      "abstracts": 867,
+      "first_year": 1963,
+      "last_year": 2026
+    },
+    {
+      "journal": "Journal of Applied Econometrics",
+      "records": 100,
+      "abstracts": 7,
+      "first_year": 1996,
       "last_year": 2002
+    },
+    {
+      "journal": "Journal of Banking & Finance",
+      "records": 7492,
+      "abstracts": 0,
+      "first_year": 1977,
+      "last_year": 2026
+    },
+    {
+      "journal": "Journal of Business & Economic Statistics",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 2001,
+      "last_year": 2003
+    },
+    {
+      "journal": "Journal of Choice Modelling",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 2008,
+      "last_year": 2014
+    },
+    {
+      "journal": "Journal of Comparative Economics",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1993,
+      "last_year": 2002
+    },
+    {
+      "journal": "Journal of Computational and Graphical Statistics",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 2001,
+      "last_year": 2003
     },
     {
       "journal": "Journal of Corporate Finance",
@@ -65,31 +737,66 @@
     },
     {
       "journal": "Journal of Development Economics",
-      "records": 100,
+      "records": 4770,
       "abstracts": 0,
       "first_year": 1974,
-      "last_year": 2002
+      "last_year": 2026
+    },
+    {
+      "journal": "Journal of Econometric Methods",
+      "records": 100,
+      "abstracts": 86,
+      "first_year": 2012,
+      "last_year": 2022
     },
     {
       "journal": "Journal of Econometrics",
+      "records": 6490,
+      "abstracts": 0,
+      "first_year": 1973,
+      "last_year": 2026
+    },
+    {
+      "journal": "Journal of Economic Geography",
       "records": 100,
       "abstracts": 0,
-      "first_year": 1995,
-      "last_year": 2002
+      "first_year": 2001,
+      "last_year": 2004
     },
     {
       "journal": "Journal of Economic Literature",
-      "records": 100,
-      "abstracts": 82,
-      "first_year": 2002,
-      "last_year": 2005
+      "records": 2047,
+      "abstracts": 1784,
+      "first_year": 1999,
+      "last_year": 2026
     },
     {
       "journal": "Journal of Economic Perspectives",
+      "records": 2317,
+      "abstracts": 1807,
+      "first_year": 1987,
+      "last_year": 2026
+    },
+    {
+      "journal": "Journal of Economic Theory",
+      "records": 2000,
+      "abstracts": 0,
+      "first_year": 1969,
+      "last_year": 2005
+    },
+    {
+      "journal": "Journal of Economics and Statistics",
       "records": 100,
-      "abstracts": 91,
-      "first_year": 2002,
-      "last_year": 2003
+      "abstracts": 76,
+      "first_year": 2007,
+      "last_year": 2016
+    },
+    {
+      "journal": "Journal of Empirical Finance",
+      "records": 1870,
+      "abstracts": 0,
+      "first_year": 1993,
+      "last_year": 2026
     },
     {
       "journal": "Journal of Finance",
@@ -100,10 +807,10 @@
     },
     {
       "journal": "Journal of Financial and Quantitative Analysis",
-      "records": 100,
-      "abstracts": 0,
+      "records": 4099,
+      "abstracts": 1693,
       "first_year": 1966,
-      "last_year": 2001
+      "last_year": 2026
     },
     {
       "journal": "Journal of Financial Economics",
@@ -113,24 +820,80 @@
       "last_year": 2026
     },
     {
-      "journal": "Journal of International Economics",
-      "records": 100,
+      "journal": "Journal of Financial Intermediation",
+      "records": 1029,
       "abstracts": 0,
-      "first_year": 1995,
+      "first_year": 1990,
+      "last_year": 2026
+    },
+    {
+      "journal": "Journal of Financial Markets",
+      "records": 919,
+      "abstracts": 0,
+      "first_year": 1998,
+      "last_year": 2026
+    },
+    {
+      "journal": "Journal of Financial Stability",
+      "records": 1375,
+      "abstracts": 0,
+      "first_year": 2004,
+      "last_year": 2026
+    },
+    {
+      "journal": "Journal of Forecasting",
+      "records": 100,
+      "abstracts": 31,
+      "first_year": 1996,
       "last_year": 2002
+    },
+    {
+      "journal": "Journal of Health Economics",
+      "records": 2000,
+      "abstracts": 0,
+      "first_year": 1982,
+      "last_year": 2015
+    },
+    {
+      "journal": "Journal of Human Resources",
+      "records": 2000,
+      "abstracts": 0,
+      "first_year": 1966,
+      "last_year": 2015
+    },
+    {
+      "journal": "Journal of International Economics",
+      "records": 4160,
+      "abstracts": 0,
+      "first_year": 1971,
+      "last_year": 2026
+    },
+    {
+      "journal": "Journal of International Money and Finance",
+      "records": 2000,
+      "abstracts": 0,
+      "first_year": 1982,
+      "last_year": 2014
     },
     {
       "journal": "Journal of Labor Economics",
-      "records": 100,
+      "records": 1800,
       "abstracts": 0,
       "first_year": 1983,
-      "last_year": 2002
+      "last_year": 2026
     },
     {
       "journal": "Journal of Monetary Economics",
-      "records": 100,
+      "records": 4021,
       "abstracts": 0,
       "first_year": 1975,
+      "last_year": 2026
+    },
+    {
+      "journal": "Journal of Money, Credit and Banking",
+      "records": 2000,
+      "abstracts": 0,
+      "first_year": 1969,
       "last_year": 2001
     },
     {
@@ -142,31 +905,129 @@
     },
     {
       "journal": "Journal of Public Economics",
+      "records": 5463,
+      "abstracts": 0,
+      "first_year": 1972,
+      "last_year": 2026
+    },
+    {
+      "journal": "Journal of Quantitative Economics",
       "records": 100,
       "abstracts": 0,
-      "first_year": 1996,
+      "first_year": 2015,
+      "last_year": 2017
+    },
+    {
+      "journal": "Journal of Risk and Uncertainty",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1997,
+      "last_year": 2000
+    },
+    {
+      "journal": "Journal of the American Statistical Association",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 2001,
       "last_year": 2002
+    },
+    {
+      "journal": "Journal of the European Economic Association",
+      "records": 1640,
+      "abstracts": 602,
+      "first_year": 2003,
+      "last_year": 2026
+    },
+    {
+      "journal": "Journal of Time Series Analysis",
+      "records": 100,
+      "abstracts": 93,
+      "first_year": 1997,
+      "last_year": 2002
+    },
+    {
+      "journal": "NBER Macroeconomics Annual",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1986,
+      "last_year": 2000
+    },
+    {
+      "journal": "Oxford Bulletin of Economics and Statistics",
+      "records": 100,
+      "abstracts": 63,
+      "first_year": 1997,
+      "last_year": 2002
+    },
+    {
+      "journal": "PharmacoEconomics",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1998,
+      "last_year": 1999
+    },
+    {
+      "journal": "Review of Accounting Studies",
+      "records": 1194,
+      "abstracts": 195,
+      "first_year": 1996,
+      "last_year": 2026
+    },
+    {
+      "journal": "Review of Economic Dynamics",
+      "records": 1406,
+      "abstracts": 0,
+      "first_year": 1998,
+      "last_year": 2026
     },
     {
       "journal": "Review of Finance",
-      "records": 100,
-      "abstracts": 73,
+      "records": 1157,
+      "abstracts": 1052,
       "first_year": 1997,
-      "last_year": 2002
+      "last_year": 2026
     },
     {
       "journal": "Review of Financial Studies",
-      "records": 100,
-      "abstracts": 0,
+      "records": 3270,
+      "abstracts": 923,
       "first_year": 1988,
-      "last_year": 2002
+      "last_year": 2026
+    },
+    {
+      "journal": "Studies in Nonlinear Dynamics & Econometrics",
+      "records": 100,
+      "abstracts": 38,
+      "first_year": 2000,
+      "last_year": 2014
+    },
+    {
+      "journal": "The Accounting Review",
+      "records": 3000,
+      "abstracts": 2452,
+      "first_year": 1926,
+      "last_year": 2026
+    },
+    {
+      "journal": "The BE Journal of Economic Analysis and Policy",
+      "records": 100,
+      "abstracts": 100,
+      "first_year": 2006,
+      "last_year": 2008
+    },
+    {
+      "journal": "The BE Journal of Macroeconomics",
+      "records": 100,
+      "abstracts": 100,
+      "first_year": 2001,
+      "last_year": 2009
     },
     {
       "journal": "The Economic Journal",
-      "records": 100,
-      "abstracts": 0,
-      "first_year": 1997,
-      "last_year": 2002
+      "records": 19604,
+      "abstracts": 914,
+      "first_year": 1891,
+      "last_year": 2026
     },
     {
       "journal": "The Quarterly Journal of Economics",
@@ -184,51 +1045,199 @@
     },
     {
       "journal": "The Review of Economics and Statistics",
-      "records": 7584,
+      "records": 7583,
       "abstracts": 1088,
       "first_year": 1919,
       "last_year": 2026
+    },
+    {
+      "journal": "Theoretical Economics",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 2010,
+      "last_year": 2013
+    },
+    {
+      "journal": "World Development",
+      "records": 2000,
+      "abstracts": 0,
+      "first_year": 1973,
+      "last_year": 2002
     }
   ],
-  "snapshot": "2026-10-11",
-  "snapshot_version": "crossref-2026-10-11-v2",
-  "count": 72743,
-  "abstracts": 11556,
-  "bytes": 36054277,
+  "snapshot": "2026-10-12",
+  "snapshot_version": "crossref-2026-10-12-48c27b7c",
+  "count": 193233,
+  "abstracts": 32354,
+  "bytes": 100979200,
   "journals": [
+    "Abacus",
+    "Accounting and Business Research",
+    "Accounting and Finance",
+    "Accounting and the Public Interest",
+    "Accounting Auditing and Accountability Journal",
+    "Accounting Education",
+    "Accounting Forum",
+    "Accounting Historians Journal",
+    "Accounting History",
+    "Accounting History Review",
+    "Accounting Horizons",
+    "Accounting in Europe",
+    "Accounting Perspectives",
+    "Accounting Research Journal",
+    "Accounting, Economics and Law – A Convivium",
+    "Accounting, Organizations and Society",
+    "Advances in Accounting",
+    "Advances in Applied Probability",
+    "African Journal of Agricultural and Resource Economics",
+    "Agenda: a journal of policy analysis and reform",
+    "Agricultural and Resource Economics Review",
+    "Agricultural Economics",
+    "Agriculture and Human Values",
+    "Algorithmic Finance",
     "American Economic Journal Applied Economics",
     "American Economic Journal Economic Policy",
     "American Economic Journal Macroeconomics",
     "American Economic Journal Microeconomics",
     "American Economic Review",
+    "American Economic Review: Insights",
+    "American Journal of Agricultural Economics",
+    "American Journal of Economics and Sociology",
+    "American Journal of Health Economics",
+    "American Law and Economics Review",
+    "Annals of Actuarial Science",
+    "Annals of Applied Probability",
+    "Annals of Applied Statistics",
+    "Annals of Finance",
+    "Annals of Probability",
+    "Annals of Statistics",
+    "Annals of the Institute of Statistical Mathematics",
+    "Applied Economics",
+    "Applied Finance Letters",
+    "Applied Financial Economics",
+    "Applied Mathematical Finance",
+    "Applied Stochastic Models in Business and Industry",
+    "ASTIN Bulletin",
+    "Auditing: A Journal of Practice and Theory",
+    "Australian and New Zealand Journal of Statistics",
+    "Australian Journal of Management",
+    "Biometrical Journal",
+    "Biometrika",
+    "British Accounting Review",
+    "British Journal of Mathematical and Statistical Psychology",
+    "Brookings Papers on Economic Activity",
+    "Cambridge Journal of Economics",
+    "Canadian Journal of Agricultural Economics / Revue Canadienne d Agroeconomie",
+    "Canadian Journal of Economics / Revue Canadienne D'Economique",
+    "Capital and Class",
+    "China Economic Journal",
+    "China Finance Review International",
+    "Climate and Development",
+    "Climate Change Economics",
+    "Communications in Statistics: Theory and Methods",
+    "Contemporary Accounting Research",
+    "Critical Finance Review",
+    "Dynamic Games and Applications",
+    "Ecological Economics",
+    "Econometric Reviews",
+    "Econometric Theory",
     "Econometrica",
+    "Econometrics",
+    "Econometrics and Statistics",
+    "Econometrics Journal",
+    "Economic Theory",
+    "Economic Theory Bulletin",
+    "Emerging Markets Review",
+    "Environmetrics",
+    "European Economic Review",
+    "European Financial Management",
+    "European Journal of the History of Economic Thought",
+    "Experimental Economics",
+    "Finance and Stochastics",
+    "Finance Research Letters",
     "Financial Management",
+    "Games",
+    "Games and Economic Behavior",
+    "History of Economics Review",
+    "History of Political Economy",
+    "Insurance: Mathematics & Economics",
+    "International Economic Review",
+    "International Game Theory Review",
+    "International Journal of Forecasting",
+    "International Journal of Game Theory",
+    "International Review of Financial Analysis",
+    "Journal for Studies in Economics & Econometrics",
+    "Journal of Accounting and Economics",
+    "Journal of Accounting Research",
+    "Journal of Applied Econometrics",
     "Journal of Banking & Finance",
+    "Journal of Business & Economic Statistics",
+    "Journal of Choice Modelling",
+    "Journal of Comparative Economics",
+    "Journal of Computational and Graphical Statistics",
     "Journal of Corporate Finance",
     "Journal of Development Economics",
+    "Journal of Econometric Methods",
     "Journal of Econometrics",
+    "Journal of Economic Geography",
     "Journal of Economic Literature",
     "Journal of Economic Perspectives",
+    "Journal of Economic Theory",
+    "Journal of Economics and Statistics",
+    "Journal of Empirical Finance",
     "Journal of Finance",
     "Journal of Financial and Quantitative Analysis",
     "Journal of Financial Economics",
+    "Journal of Financial Intermediation",
+    "Journal of Financial Markets",
+    "Journal of Financial Stability",
+    "Journal of Forecasting",
+    "Journal of Health Economics",
+    "Journal of Human Resources",
     "Journal of International Economics",
+    "Journal of International Money and Finance",
     "Journal of Labor Economics",
     "Journal of Monetary Economics",
+    "Journal of Money, Credit and Banking",
     "Journal of Political Economy",
     "Journal of Public Economics",
+    "Journal of Quantitative Economics",
+    "Journal of Risk and Uncertainty",
+    "Journal of the American Statistical Association",
+    "Journal of the European Economic Association",
+    "Journal of Time Series Analysis",
+    "NBER Macroeconomics Annual",
+    "Oxford Bulletin of Economics and Statistics",
+    "PharmacoEconomics",
+    "Review of Accounting Studies",
+    "Review of Economic Dynamics",
     "Review of Finance",
     "Review of Financial Studies",
+    "Studies in Nonlinear Dynamics & Econometrics",
+    "The Accounting Review",
+    "The BE Journal of Economic Analysis and Policy",
+    "The BE Journal of Macroeconomics",
     "The Economic Journal",
     "The Quarterly Journal of Economics",
     "The Review of Economic Studies",
-    "The Review of Economics and Statistics"
+    "The Review of Economics and Statistics",
+    "Theoretical Economics",
+    "World Development"
   ],
   "publication_types": {
-    "unknown": 72743
+    "unknown": 193233
   },
   "missing_import_dates": 0,
-  "catalog_url": "/data/literature/catalog-133475cafe19.json",
-  "generated_at": "2026-10-12T04:39:28.565Z",
+  "abdc_expansion": {
+    "edition": "2025, September 2026 revision",
+    "eligible_targets": 657,
+    "source": "https://abdc.edu.au/abdc-journal-quality-list/",
+    "attempted_journals": 110,
+    "unavailable_journals": 8,
+    "identity_review_pending": 0,
+    "complete": false
+  },
+  "catalog_url": "/data/literature/catalog-ad13f6f0145d.json.gz",
+  "generated_at": "2026-10-12T05:34:54.645Z",
   "scope": "Counts describe the published snapshot, not complete journal archives."
 }
