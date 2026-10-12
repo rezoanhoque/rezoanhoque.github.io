@@ -1,0 +1,234 @@
+{
+  "coverage": [
+    {
+      "journal": "American Economic Journal Applied Economics",
+      "records": 100,
+      "abstracts": 88,
+      "first_year": 2009,
+      "last_year": 2011
+    },
+    {
+      "journal": "American Economic Journal Economic Policy",
+      "records": 100,
+      "abstracts": 87,
+      "first_year": 2009,
+      "last_year": 2012
+    },
+    {
+      "journal": "American Economic Journal Macroeconomics",
+      "records": 100,
+      "abstracts": 87,
+      "first_year": 2009,
+      "last_year": 2011
+    },
+    {
+      "journal": "American Economic Journal Microeconomics",
+      "records": 100,
+      "abstracts": 87,
+      "first_year": 2009,
+      "last_year": 2011
+    },
+    {
+      "journal": "American Economic Review",
+      "records": 5646,
+      "abstracts": 3568,
+      "first_year": 1999,
+      "last_year": 2026
+    },
+    {
+      "journal": "Econometrica",
+      "records": 7295,
+      "abstracts": 551,
+      "first_year": 1933,
+      "last_year": 2026
+    },
+    {
+      "journal": "Financial Management",
+      "records": 2076,
+      "abstracts": 700,
+      "first_year": 1972,
+      "last_year": 2026
+    },
+    {
+      "journal": "Journal of Banking & Finance",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1989,
+      "last_year": 2002
+    },
+    {
+      "journal": "Journal of Corporate Finance",
+      "records": 2845,
+      "abstracts": 0,
+      "first_year": 1994,
+      "last_year": 2026
+    },
+    {
+      "journal": "Journal of Development Economics",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1974,
+      "last_year": 2002
+    },
+    {
+      "journal": "Journal of Econometrics",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1995,
+      "last_year": 2002
+    },
+    {
+      "journal": "Journal of Economic Literature",
+      "records": 100,
+      "abstracts": 82,
+      "first_year": 2002,
+      "last_year": 2005
+    },
+    {
+      "journal": "Journal of Economic Perspectives",
+      "records": 100,
+      "abstracts": 91,
+      "first_year": 2002,
+      "last_year": 2003
+    },
+    {
+      "journal": "Journal of Finance",
+      "records": 15027,
+      "abstracts": 3649,
+      "first_year": 1946,
+      "last_year": 2026
+    },
+    {
+      "journal": "Journal of Financial and Quantitative Analysis",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1966,
+      "last_year": 2001
+    },
+    {
+      "journal": "Journal of Financial Economics",
+      "records": 4541,
+      "abstracts": 0,
+      "first_year": 1974,
+      "last_year": 2026
+    },
+    {
+      "journal": "Journal of International Economics",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1995,
+      "last_year": 2002
+    },
+    {
+      "journal": "Journal of Labor Economics",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1983,
+      "last_year": 2002
+    },
+    {
+      "journal": "Journal of Monetary Economics",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1975,
+      "last_year": 2001
+    },
+    {
+      "journal": "Journal of Political Economy",
+      "records": 15136,
+      "abstracts": 0,
+      "first_year": 1892,
+      "last_year": 2026
+    },
+    {
+      "journal": "Journal of Public Economics",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1996,
+      "last_year": 2002
+    },
+    {
+      "journal": "Review of Finance",
+      "records": 100,
+      "abstracts": 73,
+      "first_year": 1997,
+      "last_year": 2002
+    },
+    {
+      "journal": "Review of Financial Studies",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1988,
+      "last_year": 2002
+    },
+    {
+      "journal": "The Economic Journal",
+      "records": 100,
+      "abstracts": 0,
+      "first_year": 1997,
+      "last_year": 2002
+    },
+    {
+      "journal": "The Quarterly Journal of Economics",
+      "records": 6621,
+      "abstracts": 608,
+      "first_year": 1886,
+      "last_year": 2026
+    },
+    {
+      "journal": "The Review of Economic Studies",
+      "records": 4272,
+      "abstracts": 797,
+      "first_year": 1933,
+      "last_year": 2026
+    },
+    {
+      "journal": "The Review of Economics and Statistics",
+      "records": 7584,
+      "abstracts": 1088,
+      "first_year": 1919,
+      "last_year": 2026
+    }
+  ],
+  "snapshot": "2026-10-11",
+  "snapshot_version": "crossref-2026-10-11-v2",
+  "count": 72743,
+  "abstracts": 11556,
+  "bytes": 36054277,
+  "journals": [
+    "American Economic Journal Applied Economics",
+    "American Economic Journal Economic Policy",
+    "American Economic Journal Macroeconomics",
+    "American Economic Journal Microeconomics",
+    "American Economic Review",
+    "Econometrica",
+    "Financial Management",
+    "Journal of Banking & Finance",
+    "Journal of Corporate Finance",
+    "Journal of Development Economics",
+    "Journal of Econometrics",
+    "Journal of Economic Literature",
+    "Journal of Economic Perspectives",
+    "Journal of Finance",
+    "Journal of Financial and Quantitative Analysis",
+    "Journal of Financial Economics",
+    "Journal of International Economics",
+    "Journal of Labor Economics",
+    "Journal of Monetary Economics",
+    "Journal of Political Economy",
+    "Journal of Public Economics",
+    "Review of Finance",
+    "Review of Financial Studies",
+    "The Economic Journal",
+    "The Quarterly Journal of Economics",
+    "The Review of Economic Studies",
+    "The Review of Economics and Statistics"
+  ],
+  "publication_types": {
+    "unknown": 72743
+  },
+  "missing_import_dates": 0,
+  "catalog_url": "/data/literature/catalog-133475cafe19.json",
+  "generated_at": "2026-10-12T04:25:29.616Z",
+  "scope": "Counts describe the published snapshot, not complete journal archives."
+}
