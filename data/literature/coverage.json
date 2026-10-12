@@ -2,10 +2,10 @@
   "coverage": [
     {
       "journal": "Abacus",
-      "records": 100,
-      "abstracts": 69,
-      "first_year": 1997,
-      "last_year": 2002
+      "records": 1276,
+      "abstracts": 779,
+      "first_year": 1965,
+      "last_year": 2026
     },
     {
       "journal": "Accounting and Business Research",
@@ -30,10 +30,10 @@
     },
     {
       "journal": "Accounting Auditing and Accountability Journal",
-      "records": 100,
-      "abstracts": 88,
-      "first_year": 1989,
-      "last_year": 2002
+      "records": 2137,
+      "abstracts": 1593,
+      "first_year": 1988,
+      "last_year": 2025
     },
     {
       "journal": "Accounting Education",
@@ -121,17 +121,17 @@
     },
     {
       "journal": "Advances in Applied Probability",
-      "records": 100,
-      "abstracts": 94,
-      "first_year": 2000,
-      "last_year": 2002
+      "records": 1100,
+      "abstracts": 687,
+      "first_year": 1969,
+      "last_year": 2006
     },
     {
       "journal": "African Journal of Agricultural and Resource Economics",
-      "records": 100,
-      "abstracts": 100,
+      "records": 162,
+      "abstracts": 162,
       "first_year": 2019,
-      "last_year": 2024
+      "last_year": 2026
     },
     {
       "journal": "Agenda: a journal of policy analysis and reform",
@@ -149,10 +149,10 @@
     },
     {
       "journal": "Agricultural Economics",
-      "records": 100,
-      "abstracts": 0,
-      "first_year": 1995,
-      "last_year": 2002
+      "records": 2100,
+      "abstracts": 976,
+      "first_year": 1986,
+      "last_year": 2016
     },
     {
       "journal": "Agriculture and Human Values",
@@ -163,10 +163,10 @@
     },
     {
       "journal": "Algorithmic Finance",
-      "records": 100,
-      "abstracts": 64,
+      "records": 117,
+      "abstracts": 78,
       "first_year": 2011,
-      "last_year": 2022
+      "last_year": 2026
     },
     {
       "journal": "American Economic Journal Applied Economics",
@@ -199,7 +199,7 @@
     {
       "journal": "American Economic Review",
       "records": 5646,
-      "abstracts": 3568,
+      "abstracts": 4943,
       "first_year": 1999,
       "last_year": 2026
     },
@@ -240,10 +240,10 @@
     },
     {
       "journal": "Annals of Actuarial Science",
-      "records": 100,
-      "abstracts": 56,
+      "records": 498,
+      "abstracts": 363,
       "first_year": 2006,
-      "last_year": 2011
+      "last_year": 2026
     },
     {
       "journal": "Annals of Applied Probability",
@@ -268,10 +268,10 @@
     },
     {
       "journal": "Annals of Probability",
-      "records": 100,
-      "abstracts": 0,
-      "first_year": 1998,
-      "last_year": 2001
+      "records": 1100,
+      "abstracts": 148,
+      "first_year": 1973,
+      "last_year": 2008
     },
     {
       "journal": "Annals of Statistics",
@@ -324,10 +324,10 @@
     },
     {
       "journal": "ASTIN Bulletin",
-      "records": 100,
-      "abstracts": 79,
-      "first_year": 1997,
-      "last_year": 2004
+      "records": 2023,
+      "abstracts": 1260,
+      "first_year": 1958,
+      "last_year": 2026
     },
     {
       "journal": "Auditing: A Journal of Practice and Theory",
@@ -464,45 +464,45 @@
     },
     {
       "journal": "Dynamic Games and Applications",
-      "records": 100,
-      "abstracts": 0,
+      "records": 707,
+      "abstracts": 98,
       "first_year": 2010,
-      "last_year": 2014
+      "last_year": 2026
     },
     {
       "journal": "Ecological Economics",
-      "records": 100,
+      "records": 1100,
       "abstracts": 0,
-      "first_year": 1995,
+      "first_year": 1989,
       "last_year": 2002
     },
     {
       "journal": "Econometric Reviews",
-      "records": 100,
+      "records": 1524,
       "abstracts": 0,
-      "first_year": 2001,
-      "last_year": 2006
+      "first_year": 1982,
+      "last_year": 2026
     },
     {
       "journal": "Econometric Theory",
-      "records": 100,
-      "abstracts": 84,
-      "first_year": 1998,
-      "last_year": 2001
+      "records": 2659,
+      "abstracts": 1520,
+      "first_year": 1985,
+      "last_year": 2026
     },
     {
       "journal": "Econometrica",
       "records": 7295,
-      "abstracts": 551,
+      "abstracts": 3306,
       "first_year": 1933,
       "last_year": 2026
     },
     {
       "journal": "Econometrics",
-      "records": 100,
-      "abstracts": 100,
+      "records": 563,
+      "abstracts": 563,
       "first_year": 2013,
-      "last_year": 2016
+      "last_year": 2026
     },
     {
       "journal": "Econometrics and Statistics",
@@ -520,10 +520,10 @@
     },
     {
       "journal": "Economic Theory",
-      "records": 100,
+      "records": 2100,
       "abstracts": 0,
-      "first_year": 1995,
-      "last_year": 2000
+      "first_year": 1991,
+      "last_year": 2014
     },
     {
       "journal": "Economic Theory Bulletin",
@@ -591,7 +591,7 @@
     {
       "journal": "Financial Management",
       "records": 2076,
-      "abstracts": 700,
+      "abstracts": 1366,
       "first_year": 1972,
       "last_year": 2026
     },
@@ -618,10 +618,10 @@
     },
     {
       "journal": "History of Political Economy",
-      "records": 100,
-      "abstracts": 0,
-      "first_year": 2000,
-      "last_year": 2004
+      "records": 3100,
+      "abstracts": 398,
+      "first_year": 1969,
+      "last_year": 2019
     },
     {
       "journal": "Insurance: Mathematics & Economics",
@@ -731,7 +731,7 @@
     {
       "journal": "Journal of Corporate Finance",
       "records": 2845,
-      "abstracts": 0,
+      "abstracts": 280,
       "first_year": 1994,
       "last_year": 2026
     },
@@ -801,7 +801,7 @@
     {
       "journal": "Journal of Finance",
       "records": 15027,
-      "abstracts": 3649,
+      "abstracts": 4972,
       "first_year": 1946,
       "last_year": 2026
     },
@@ -815,7 +815,7 @@
     {
       "journal": "Journal of Financial Economics",
       "records": 4541,
-      "abstracts": 0,
+      "abstracts": 374,
       "first_year": 1974,
       "last_year": 2026
     },
@@ -899,7 +899,7 @@
     {
       "journal": "Journal of Political Economy",
       "records": 15136,
-      "abstracts": 0,
+      "abstracts": 2918,
       "first_year": 1892,
       "last_year": 2026
     },
@@ -990,7 +990,7 @@
     {
       "journal": "Review of Financial Studies",
       "records": 3270,
-      "abstracts": 923,
+      "abstracts": 2944,
       "first_year": 1988,
       "last_year": 2026
     },
@@ -1032,21 +1032,21 @@
     {
       "journal": "The Quarterly Journal of Economics",
       "records": 6621,
-      "abstracts": 608,
+      "abstracts": 6062,
       "first_year": 1886,
       "last_year": 2026
     },
     {
       "journal": "The Review of Economic Studies",
       "records": 4272,
-      "abstracts": 797,
+      "abstracts": 3984,
       "first_year": 1933,
       "last_year": 2026
     },
     {
       "journal": "The Review of Economics and Statistics",
       "records": 7583,
-      "abstracts": 1088,
+      "abstracts": 5115,
       "first_year": 1919,
       "last_year": 2026
     },
@@ -1066,10 +1066,10 @@
     }
   ],
   "snapshot": "2026-10-12",
-  "snapshot_version": "crossref-2026-10-12-48c27b7c",
-  "count": 193233,
-  "abstracts": 32354,
-  "bytes": 100979200,
+  "snapshot_version": "crossref-2026-10-12-1e5618e3",
+  "count": 213899,
+  "abstracts": 64625,
+  "bytes": 131660633,
   "journals": [
     "Abacus",
     "Accounting and Business Research",
@@ -1225,9 +1225,923 @@
     "World Development"
   ],
   "publication_types": {
-    "unknown": 193233
+    "unknown": 213899
   },
   "missing_import_dates": 0,
+  "journal_details": {
+    "ASTIN Bulletin": {
+      "field": "Finance",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": 2024,
+      "abstract_missing": 763
+    },
+    "Abacus": {
+      "field": "Accounting",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": 1276,
+      "abstract_missing": 497
+    },
+    "Accounting Auditing and Accountability Journal": {
+      "field": "Accounting",
+      "archive_status": "Partial - collecting",
+      "provider_total": 2137,
+      "abstract_missing": 544
+    },
+    "Accounting Education": {
+      "field": "Accounting",
+      "archive_status": "Partial - collecting",
+      "provider_total": 1400,
+      "abstract_missing": 100
+    },
+    "Accounting Forum": {
+      "field": "Accounting",
+      "archive_status": "Partial - collecting",
+      "provider_total": 786,
+      "abstract_missing": 100
+    },
+    "Accounting Historians Journal": {
+      "field": "Accounting",
+      "archive_status": "Partial - collecting",
+      "provider_total": 1085,
+      "abstract_missing": 43
+    },
+    "Accounting History": {
+      "field": "Accounting",
+      "archive_status": "Partial - collecting",
+      "provider_total": 1111,
+      "abstract_missing": 61
+    },
+    "Accounting History Review": {
+      "field": "Accounting",
+      "archive_status": "Partial - collecting",
+      "provider_total": 277,
+      "abstract_missing": 100
+    },
+    "Accounting Horizons": {
+      "field": "Accounting",
+      "archive_status": "Partial - collecting",
+      "provider_total": 1845,
+      "abstract_missing": 43
+    },
+    "Accounting Perspectives": {
+      "field": "Accounting",
+      "archive_status": "Partial - collecting",
+      "provider_total": 528,
+      "abstract_missing": 11
+    },
+    "Accounting Research Journal": {
+      "field": "Accounting",
+      "archive_status": "Partial - collecting",
+      "provider_total": 581,
+      "abstract_missing": 12
+    },
+    "Accounting and Business Research": {
+      "field": "Accounting",
+      "archive_status": "Partial - collecting",
+      "provider_total": 2256,
+      "abstract_missing": 100
+    },
+    "Accounting and Finance": {
+      "field": "Accounting",
+      "archive_status": "Partial - collecting",
+      "provider_total": 2500,
+      "abstract_missing": 4
+    },
+    "Accounting and the Public Interest": {
+      "field": "Accounting",
+      "archive_status": "Partial - collecting",
+      "provider_total": 209,
+      "abstract_missing": 26
+    },
+    "Accounting in Europe": {
+      "field": "Accounting",
+      "archive_status": "Partial - collecting",
+      "provider_total": 372,
+      "abstract_missing": 100
+    },
+    "Accounting, Economics and Law – A Convivium": {
+      "field": "Accounting",
+      "archive_status": "Partial - collecting",
+      "provider_total": 125,
+      "abstract_missing": 47
+    },
+    "Accounting, Organizations and Society": {
+      "field": "Accounting",
+      "archive_status": "Partial - collecting",
+      "provider_total": 2223,
+      "abstract_missing": 100
+    },
+    "Advances in Accounting": {
+      "field": "Accounting",
+      "archive_status": "Partial - collecting",
+      "provider_total": 813,
+      "abstract_missing": 100
+    },
+    "Advances in Applied Probability": {
+      "field": "Statistics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 4537,
+      "abstract_missing": 413
+    },
+    "African Journal of Agricultural and Resource Economics": {
+      "field": "Applied economics",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": 162,
+      "abstract_missing": 0
+    },
+    "Agenda: a journal of policy analysis and reform": {
+      "field": "Applied economics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 599,
+      "abstract_missing": 100
+    },
+    "Agricultural Economics": {
+      "field": "Applied economics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 3482,
+      "abstract_missing": 1124
+    },
+    "Agricultural and Resource Economics Review": {
+      "field": "Applied economics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 1123,
+      "abstract_missing": 36
+    },
+    "Agriculture and Human Values": {
+      "field": "Applied economics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 2867,
+      "abstract_missing": 100
+    },
+    "Algorithmic Finance": {
+      "field": "Finance",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": 117,
+      "abstract_missing": 39
+    },
+    "American Economic Journal Applied Economics": {
+      "field": "Applied economics",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 76
+    },
+    "American Economic Journal Economic Policy": {
+      "field": "Applied economics",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 74
+    },
+    "American Economic Journal Macroeconomics": {
+      "field": "Applied economics",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 75
+    },
+    "American Economic Journal Microeconomics": {
+      "field": "Applied economics",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 75
+    },
+    "American Economic Review": {
+      "field": "Applied economics",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 703
+    },
+    "American Economic Review: Insights": {
+      "field": "Applied economics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 274,
+      "abstract_missing": 11
+    },
+    "American Journal of Agricultural Economics": {
+      "field": "Applied economics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 12634,
+      "abstract_missing": 38
+    },
+    "American Journal of Economics and Sociology": {
+      "field": "Applied economics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 5089,
+      "abstract_missing": 35
+    },
+    "American Journal of Health Economics": {
+      "field": "Applied economics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 305,
+      "abstract_missing": 100
+    },
+    "American Law and Economics Review": {
+      "field": "Applied economics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 426,
+      "abstract_missing": 100
+    },
+    "Annals of Actuarial Science": {
+      "field": "Finance",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": 498,
+      "abstract_missing": 135
+    },
+    "Annals of Applied Probability": {
+      "field": "Statistics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 2900,
+      "abstract_missing": 100
+    },
+    "Annals of Applied Statistics": {
+      "field": "Statistics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 2168,
+      "abstract_missing": 17
+    },
+    "Annals of Finance": {
+      "field": "Finance",
+      "archive_status": "Partial - collecting",
+      "provider_total": 483,
+      "abstract_missing": 100
+    },
+    "Annals of Probability": {
+      "field": "Statistics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 4854,
+      "abstract_missing": 952
+    },
+    "Annals of Statistics": {
+      "field": "Statistics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 6401,
+      "abstract_missing": 100
+    },
+    "Annals of the Institute of Statistical Mathematics": {
+      "field": "Statistics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 3405,
+      "abstract_missing": 100
+    },
+    "Applied Economics": {
+      "field": "Applied economics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 13858,
+      "abstract_missing": 100
+    },
+    "Applied Finance Letters": {
+      "field": "Finance",
+      "archive_status": "Partial - collecting",
+      "provider_total": 149,
+      "abstract_missing": 0
+    },
+    "Applied Financial Economics": {
+      "field": "Finance",
+      "archive_status": "Partial - collecting",
+      "provider_total": 2300,
+      "abstract_missing": 100
+    },
+    "Applied Mathematical Finance": {
+      "field": "Finance",
+      "archive_status": "Partial - collecting",
+      "provider_total": 576,
+      "abstract_missing": 100
+    },
+    "Applied Stochastic Models in Business and Industry": {
+      "field": "Statistics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 1752,
+      "abstract_missing": 55
+    },
+    "Auditing: A Journal of Practice and Theory": {
+      "field": "Accounting",
+      "archive_status": "Partial - collecting",
+      "provider_total": 1525,
+      "abstract_missing": 33
+    },
+    "Australian Journal of Management": {
+      "field": "Finance",
+      "archive_status": "Partial - collecting",
+      "provider_total": 1246,
+      "abstract_missing": 21
+    },
+    "Australian and New Zealand Journal of Statistics": {
+      "field": "Statistics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 1197,
+      "abstract_missing": 7
+    },
+    "Biometrical Journal": {
+      "field": "Statistics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 6375,
+      "abstract_missing": 100
+    },
+    "Biometrika": {
+      "field": "Statistics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 13011,
+      "abstract_missing": 100
+    },
+    "British Accounting Review": {
+      "field": "Accounting",
+      "archive_status": "Partial - collecting",
+      "provider_total": 2009,
+      "abstract_missing": 100
+    },
+    "British Journal of Mathematical and Statistical Psychology": {
+      "field": "Statistics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 1720,
+      "abstract_missing": 10
+    },
+    "Brookings Papers on Economic Activity": {
+      "field": "Applied economics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 540,
+      "abstract_missing": 100
+    },
+    "Cambridge Journal of Economics": {
+      "field": "Applied economics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 1933,
+      "abstract_missing": 100
+    },
+    "Canadian Journal of Agricultural Economics / Revue Canadienne d Agroeconomie": {
+      "field": "Applied economics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 2843,
+      "abstract_missing": 15
+    },
+    "Canadian Journal of Economics / Revue Canadienne D'Economique": {
+      "field": "Applied economics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 4292,
+      "abstract_missing": 3
+    },
+    "Capital and Class": {
+      "field": "Other economics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 2593,
+      "abstract_missing": 61
+    },
+    "China Economic Journal": {
+      "field": "Other economics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 415,
+      "abstract_missing": 100
+    },
+    "China Finance Review International": {
+      "field": "Finance",
+      "archive_status": "Partial - collecting",
+      "provider_total": 489,
+      "abstract_missing": 16
+    },
+    "Climate Change Economics": {
+      "field": "Other economics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 419,
+      "abstract_missing": 10
+    },
+    "Climate and Development": {
+      "field": "Other economics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 1115,
+      "abstract_missing": 100
+    },
+    "Communications in Statistics: Theory and Methods": {
+      "field": "Statistics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 14345,
+      "abstract_missing": 100
+    },
+    "Contemporary Accounting Research": {
+      "field": "Accounting",
+      "archive_status": "Partial - collecting",
+      "provider_total": null,
+      "abstract_missing": 678
+    },
+    "Critical Finance Review": {
+      "field": "Finance",
+      "archive_status": "Partial - collecting",
+      "provider_total": 183,
+      "abstract_missing": 100
+    },
+    "Dynamic Games and Applications": {
+      "field": "Economic theory",
+      "archive_status": "Partial - collecting",
+      "provider_total": 707,
+      "abstract_missing": 609
+    },
+    "Ecological Economics": {
+      "field": "Other economics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 8739,
+      "abstract_missing": 1100
+    },
+    "Econometric Reviews": {
+      "field": "Econometrics",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": 1524,
+      "abstract_missing": 1524
+    },
+    "Econometric Theory": {
+      "field": "Econometrics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 2659,
+      "abstract_missing": 1139
+    },
+    "Econometrica": {
+      "field": "Econometrics",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 3989
+    },
+    "Econometrics": {
+      "field": "Econometrics",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": 563,
+      "abstract_missing": 0
+    },
+    "Econometrics Journal": {
+      "field": "Econometrics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 772,
+      "abstract_missing": 100
+    },
+    "Econometrics and Statistics": {
+      "field": "Econometrics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 534,
+      "abstract_missing": 100
+    },
+    "Economic Theory": {
+      "field": "Economic theory",
+      "archive_status": "Partial - collecting",
+      "provider_total": 3040,
+      "abstract_missing": 2100
+    },
+    "Economic Theory Bulletin": {
+      "field": "Economic theory",
+      "archive_status": "Partial - collecting",
+      "provider_total": 322,
+      "abstract_missing": 100
+    },
+    "Emerging Markets Review": {
+      "field": "Finance",
+      "archive_status": "Partial - collecting",
+      "provider_total": 1373,
+      "abstract_missing": 100
+    },
+    "Environmetrics": {
+      "field": "Statistics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 2236,
+      "abstract_missing": 73
+    },
+    "European Economic Review": {
+      "field": "Applied economics",
+      "archive_status": "Partial - collecting",
+      "provider_total": null,
+      "abstract_missing": 2000
+    },
+    "European Financial Management": {
+      "field": "Finance",
+      "archive_status": "Partial - collecting",
+      "provider_total": 1362,
+      "abstract_missing": 6
+    },
+    "European Journal of the History of Economic Thought": {
+      "field": "Economic theory",
+      "archive_status": "Partial - collecting",
+      "provider_total": 1872,
+      "abstract_missing": 100
+    },
+    "Experimental Economics": {
+      "field": "Applied economics",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 50
+    },
+    "Finance Research Letters": {
+      "field": "Finance",
+      "archive_status": "Partial - collecting",
+      "provider_total": null,
+      "abstract_missing": 2000
+    },
+    "Finance and Stochastics": {
+      "field": "Finance",
+      "archive_status": "Partial - collecting",
+      "provider_total": 831,
+      "abstract_missing": 100
+    },
+    "Financial Management": {
+      "field": "Finance",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 710
+    },
+    "Games": {
+      "field": "Economic theory",
+      "archive_status": "Partial - collecting",
+      "provider_total": 879,
+      "abstract_missing": 1
+    },
+    "Games and Economic Behavior": {
+      "field": "Economic theory",
+      "archive_status": "Partial - collecting",
+      "provider_total": null,
+      "abstract_missing": 1990
+    },
+    "History of Economics Review": {
+      "field": "Economic theory",
+      "archive_status": "Partial - collecting",
+      "provider_total": 815,
+      "abstract_missing": 100
+    },
+    "History of Political Economy": {
+      "field": "Economic theory",
+      "archive_status": "Partial - collecting",
+      "provider_total": 3574,
+      "abstract_missing": 2702
+    },
+    "Insurance: Mathematics & Economics": {
+      "field": "Finance",
+      "archive_status": "Partial - collecting",
+      "provider_total": 5278,
+      "abstract_missing": 100
+    },
+    "International Economic Review": {
+      "field": "Applied economics",
+      "archive_status": "Partial - collecting",
+      "provider_total": null,
+      "abstract_missing": 1629
+    },
+    "International Game Theory Review": {
+      "field": "Economic theory",
+      "archive_status": "Partial - collecting",
+      "provider_total": 912,
+      "abstract_missing": 3
+    },
+    "International Journal of Forecasting": {
+      "field": "Econometrics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 3704,
+      "abstract_missing": 100
+    },
+    "International Journal of Game Theory": {
+      "field": "Economic theory",
+      "archive_status": "Partial - collecting",
+      "provider_total": 1973,
+      "abstract_missing": 100
+    },
+    "International Review of Financial Analysis": {
+      "field": "Finance",
+      "archive_status": "Partial - collecting",
+      "provider_total": null,
+      "abstract_missing": 1999
+    },
+    "Journal for Studies in Economics & Econometrics": {
+      "field": "Econometrics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 810,
+      "abstract_missing": 100
+    },
+    "Journal of Accounting Research": {
+      "field": "Accounting",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 1815
+    },
+    "Journal of Accounting and Economics": {
+      "field": "Accounting",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 1866
+    },
+    "Journal of Applied Econometrics": {
+      "field": "Econometrics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 2379,
+      "abstract_missing": 93
+    },
+    "Journal of Banking & Finance": {
+      "field": "Finance",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 7492
+    },
+    "Journal of Business & Economic Statistics": {
+      "field": "Econometrics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 3055,
+      "abstract_missing": 100
+    },
+    "Journal of Choice Modelling": {
+      "field": "Economic theory",
+      "archive_status": "Partial - collecting",
+      "provider_total": 517,
+      "abstract_missing": 100
+    },
+    "Journal of Comparative Economics": {
+      "field": "Other economics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 3185,
+      "abstract_missing": 100
+    },
+    "Journal of Computational and Graphical Statistics": {
+      "field": "Statistics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 2520,
+      "abstract_missing": 100
+    },
+    "Journal of Corporate Finance": {
+      "field": "Finance",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 2565
+    },
+    "Journal of Development Economics": {
+      "field": "Applied economics",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 4770
+    },
+    "Journal of Econometric Methods": {
+      "field": "Econometrics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 131,
+      "abstract_missing": 14
+    },
+    "Journal of Econometrics": {
+      "field": "Econometrics",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 6490
+    },
+    "Journal of Economic Geography": {
+      "field": "Other economics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 1273,
+      "abstract_missing": 100
+    },
+    "Journal of Economic Literature": {
+      "field": "Applied economics",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 263
+    },
+    "Journal of Economic Perspectives": {
+      "field": "Applied economics",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 510
+    },
+    "Journal of Economic Theory": {
+      "field": "Economic theory",
+      "archive_status": "Partial - collecting",
+      "provider_total": null,
+      "abstract_missing": 2000
+    },
+    "Journal of Economics and Statistics": {
+      "field": "Econometrics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 8835,
+      "abstract_missing": 24
+    },
+    "Journal of Empirical Finance": {
+      "field": "Finance",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 1870
+    },
+    "Journal of Finance": {
+      "field": "Finance",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 10055
+    },
+    "Journal of Financial Economics": {
+      "field": "Finance",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 4167
+    },
+    "Journal of Financial Intermediation": {
+      "field": "Finance",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 1029
+    },
+    "Journal of Financial Markets": {
+      "field": "Finance",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 919
+    },
+    "Journal of Financial Stability": {
+      "field": "Finance",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 1375
+    },
+    "Journal of Financial and Quantitative Analysis": {
+      "field": "Finance",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 2406
+    },
+    "Journal of Forecasting": {
+      "field": "Econometrics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 2680,
+      "abstract_missing": 69
+    },
+    "Journal of Health Economics": {
+      "field": "Applied economics",
+      "archive_status": "Partial - collecting",
+      "provider_total": null,
+      "abstract_missing": 2000
+    },
+    "Journal of Human Resources": {
+      "field": "Applied economics",
+      "archive_status": "Partial - collecting",
+      "provider_total": null,
+      "abstract_missing": 2000
+    },
+    "Journal of International Economics": {
+      "field": "Applied economics",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 4160
+    },
+    "Journal of International Money and Finance": {
+      "field": "Finance",
+      "archive_status": "Partial - collecting",
+      "provider_total": null,
+      "abstract_missing": 2000
+    },
+    "Journal of Labor Economics": {
+      "field": "Applied economics",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 1800
+    },
+    "Journal of Monetary Economics": {
+      "field": "Applied economics",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 4021
+    },
+    "Journal of Money, Credit and Banking": {
+      "field": "Applied economics",
+      "archive_status": "Partial - collecting",
+      "provider_total": null,
+      "abstract_missing": 2000
+    },
+    "Journal of Political Economy": {
+      "field": "Applied economics",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 12218
+    },
+    "Journal of Public Economics": {
+      "field": "Applied economics",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 5463
+    },
+    "Journal of Quantitative Economics": {
+      "field": "Econometrics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 626,
+      "abstract_missing": 100
+    },
+    "Journal of Risk and Uncertainty": {
+      "field": "Economic theory",
+      "archive_status": "Partial - collecting",
+      "provider_total": 1033,
+      "abstract_missing": 100
+    },
+    "Journal of Time Series Analysis": {
+      "field": "Econometrics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 2119,
+      "abstract_missing": 7
+    },
+    "Journal of the American Statistical Association": {
+      "field": "Statistics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 25248,
+      "abstract_missing": 100
+    },
+    "Journal of the European Economic Association": {
+      "field": "Applied economics",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 1038
+    },
+    "NBER Macroeconomics Annual": {
+      "field": "Economic theory",
+      "archive_status": "Partial - collecting",
+      "provider_total": 1298,
+      "abstract_missing": 100
+    },
+    "Oxford Bulletin of Economics and Statistics": {
+      "field": "Econometrics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 2179,
+      "abstract_missing": 37
+    },
+    "PharmacoEconomics": {
+      "field": "Other economics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 4177,
+      "abstract_missing": 100
+    },
+    "Review of Accounting Studies": {
+      "field": "Accounting",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 999
+    },
+    "Review of Economic Dynamics": {
+      "field": "Applied economics",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 1406
+    },
+    "Review of Finance": {
+      "field": "Finance",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 105
+    },
+    "Review of Financial Studies": {
+      "field": "Finance",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 326
+    },
+    "Studies in Nonlinear Dynamics & Econometrics": {
+      "field": "Econometrics",
+      "archive_status": "Partial - collecting",
+      "provider_total": 388,
+      "abstract_missing": 62
+    },
+    "The Accounting Review": {
+      "field": "Accounting",
+      "archive_status": "Partial - collecting",
+      "provider_total": null,
+      "abstract_missing": 548
+    },
+    "The BE Journal of Economic Analysis and Policy": {
+      "field": "Economic theory",
+      "archive_status": "Partial - collecting",
+      "provider_total": 1334,
+      "abstract_missing": 0
+    },
+    "The BE Journal of Macroeconomics": {
+      "field": "Economic theory",
+      "archive_status": "Partial - collecting",
+      "provider_total": 624,
+      "abstract_missing": 0
+    },
+    "The Economic Journal": {
+      "field": "Applied economics",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 18690
+    },
+    "The Quarterly Journal of Economics": {
+      "field": "Applied economics",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 559
+    },
+    "The Review of Economic Studies": {
+      "field": "Applied economics",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 288
+    },
+    "The Review of Economics and Statistics": {
+      "field": "Applied economics",
+      "archive_status": "Provider cursor exhausted",
+      "provider_total": null,
+      "abstract_missing": 2468
+    },
+    "Theoretical Economics": {
+      "field": "Economic theory",
+      "archive_status": "Partial - collecting",
+      "provider_total": 735,
+      "abstract_missing": 100
+    },
+    "World Development": {
+      "field": "Applied economics",
+      "archive_status": "Partial - collecting",
+      "provider_total": null,
+      "abstract_missing": 2000
+    }
+  },
   "abdc_expansion": {
     "edition": "2025, September 2026 revision",
     "eligible_targets": 657,
@@ -1237,7 +2151,7 @@
     "identity_review_pending": 0,
     "complete": false
   },
-  "catalog_url": "/data/literature/catalog-ad13f6f0145d.json.gz",
-  "generated_at": "2026-10-12T05:54:36.908Z",
+  "catalog_url": "/data/literature/catalog-671c1fd360ef.json.gz",
+  "generated_at": "2026-10-12T06:26:31.371Z",
   "scope": "Counts describe the published snapshot, not complete journal archives."
 }
