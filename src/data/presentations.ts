@@ -16,7 +16,6 @@ export const conference: Talk[] = [
     event: 'Financial Management Association (FMA) Annual Meeting',
     place: 'Tampa, FL',
     with: 'J. A. Pérez-Amuedo, R. Houston and M. K. Hassan',
-    tag: 'Accepted',
   },
   {
     date: '2026',

@@ -14,8 +14,6 @@ const fig = p.fig ? figs[`../assets/figs/${p.fig.file}`]?.default : undefined;
 
 const tagClass: Record<string, string> = {
   published: 'tag-pub',
-  'under-review': 'tag-review',
-  revision: 'tag-revision',
   working: 'tag-working',
   chapter: 'tag-chapter',
   press: 'tag-working',
@@ -48,10 +46,12 @@ const tagClass: Record<string, string> = {
           {p.venue && <em>{p.venue}</em>}{p.venue && p.detail && ', '}{p.detail}
         </p>
       )}
-      <div class="paper-tags">
-        {p.statusLabel && <span class:list={['tag', tagClass[p.status]]}>{p.statusLabel}</span>}
-        {p.note && <span class="tag tag-note">{p.note}</span>}
-      </div>
+      {(p.statusLabel || p.note) && (
+        <div class="paper-tags">
+          {p.statusLabel && <span class:list={['tag', tagClass[p.status]]}>{p.statusLabel}</span>}
+          {p.note && <span class="tag tag-note">{p.note}</span>}
+        </div>
+      )}
       {p.lead && <p class="paper-lead">{p.lead}</p>}
       {p.abstract && (
         <details class="abstract">

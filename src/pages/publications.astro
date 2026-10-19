@@ -1,22 +1,21 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import PaperEntry from '../components/PaperEntry.astro';
-import { jmp, underReview, journalArticles, chapters, workingPapers, press, type Paper } from '../data/papers';
+import { jmp, journalArticles, chapters, workingPapers, press, type Paper } from '../data/papers';
 
 const groups: [string, string, Paper[]][] = [
   ['job-market-paper', 'Job Market Paper', [jmp]],
-  ['under-review', 'Under Review', underReview],
+  ['working-papers', 'Working Papers', workingPapers],
   ['journal-articles', 'Peer-Reviewed Journal Articles', journalArticles],
   ['book-chapters', 'Book Chapters', chapters],
-  ['working-papers', 'Working Papers', workingPapers],
   ['press', 'Op-Eds and Press', press],
 ];
 ---
-<Layout title="Publications" description="Papers, publications and working papers of M. R. Hoque, with abstracts.">
+<Layout title="Publications" description="Job market paper, working papers and publications of M. R. Hoque.">
   <section class="page-head">
     <div class="wrap">
       <h1>Publications</h1>
-      <p class="sub">Papers under review, published work and working papers. Click Abstract to read a summary.</p>
+      <p class="sub">My job market paper, working papers, and published articles and chapters.</p>
     </div>
   </section>
 

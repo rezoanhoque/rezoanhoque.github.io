@@ -1,0 +1,329 @@
+%=========================================================
+%  M. R. Hoque - Curriculum Vitae (Job Market, full)
+%  Compile with: pdflatex "Mohammad Rezoanul Hoque CV.tex"
+%=========================================================
+\documentclass[11pt,letterpaper]{article}
+
+\usepackage[left=1in,right=1in,top=0.85in,bottom=0.85in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{microtype}
+\usepackage[colorlinks=true,urlcolor=black,linkcolor=black]{hyperref}
+
+% ---------- section style ----------
+\titleformat{\section}{\normalsize\bfseries}{}{0pt}{\MakeUppercase}[\vspace{.5pt}\titlerule]
+\titlespacing*{\section}{0pt}{13pt}{7pt}
+
+% ---------- running header ----------
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\itshape M. R. Hoque}
+\fancyhead[R]{\small\itshape Louisiana State University of New Orleans}
+\fancyfoot[C]{\small\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\setlength{\headsep}{16pt}
+
+% ---------- helpers ----------
+\newcommand{\entry}[2]{%
+  \noindent\begin{minipage}[t]{0.72\textwidth}\raggedright #1\end{minipage}%
+  \hfill%
+  \begin{minipage}[t]{0.27\textwidth}\raggedleft #2\end{minipage}\par
+}
+
+% breathing room under a bold headline line (ends the line, then adds space)
+\newcommand{\hgap}{\par\vspace{3pt}}
+
+% \course{title}{format}{term}{evaluation} -- evaluation kept in the source but not printed
+\newcommand{\course}[4]{%
+  \entry{\textbf{#1}, #2}{#3}\par\vspace{3pt}%
+}
+
+\newenvironment{abstractblock}
+  {\begin{list}{}{\leftmargin=1.8em \rightmargin=0.2em \topsep=5pt \parsep=0pt}\item[]\small}
+  {\end{list}}
+
+\setlength{\parindent}{0pt}
+\newcommand{\gap}{\par\vspace{8pt}}
+\newcommand{\smallgap}{\par\vspace{5pt}}
+
+\begin{document}
+\thispagestyle{empty}
+
+%=========================== HEADER ===========================
+\begin{center}
+{\LARGE\bfseries M. R. Hoque}\\[6pt]
+{\small
+\href{mailto:mrezoan1@lsuneworleans.edu}{mrezoan1@lsuneworleans.edu} \ $\vert$ \
++1 (954) 469-7485 \ $\vert$ \
+\href{https://www.linkedin.com/in/rezoanul/}{LinkedIn} \ $\vert$ \
+\href{https://scholar.google.com/citations?user=I0jIEoQAAAAJ&hl=en}{Google Scholar} \ $\vert$ \
+\href{https://rezoanulhoque.com/}{rezoanulhoque.com}}
+\end{center}
+\vspace{4pt}
+
+Louisiana State University of New Orleans\\
+Department of Economics and Finance \hfill He/His/Him
+
+%====================== RESEARCH INTERESTS ======================
+\section{Research Interests}
+Empirical Corporate Finance, Empirical Asset Pricing, Financial Institutions and Bank Risk, Analyst and Insider Behavior, Machine Learning and Large Language Models in Finance.
+
+%=========================== EDUCATION ===========================
+\section{Education}
+
+\textbf{Louisiana State University of New Orleans}, New Orleans, LA\hgap
+\entry{Ph.D. in Financial Economics}{Spring 2027 (Exp.)}
+\entry{M.Sc. in CSE}{2027}
+\entry{M.Sc. in Finance}{2026}
+\smallgap
+\textbf{Texas Tech University}, Lubbock, TX\hgap
+\entry{M.S. in A. Applied Economics}{2024}
+\smallgap
+\textbf{IIUM}, Kuala Lumpur, Malaysia\hgap
+\entry{B.Sc. and M.Sc. in Economics}{2014 / 2018}
+
+%======================= TEACHING EXPERIENCE =======================
+\section{Teaching Experience}
+
+\entry{\textbf{Louisiana State University of New Orleans}, New Orleans, LA}{\textit{Instructor of Record}}
+\hgap
+\course{Principles of Macroeconomics}{Undergraduate, Face to Face}{Fall 2026}{course in progress}
+\course{Investments}{Undergraduate, Online}{Summer 2026}{4.6/5.0}
+\smallgap
+
+\entry{\textbf{Louisiana State University of New Orleans}, New Orleans, LA}{\textit{Tutorial Instructor}}
+\hgap
+\course{Operations Management}{Tutorial Sessions, Face to Face}{Summer 2026}{4.9/5.0}
+\course{EMBA Business Statistics}{Tutorial Sessions, Face to Face}{Spring 2023}{4.9/5.0}
+\smallgap
+
+\entry{\textbf{Texas Tech University}, Lubbock, TX}{\textit{Teaching Assistant}}
+\hgap
+\entry{Macroeconomics and Microeconomics}{2023 to 2024}
+\entry{Data Science, Online}{2023 to 2024}
+
+%========================= JOB MARKET PAPER =========================
+\section{Job Market Paper}
+
+\textbf{Subsidies as Attention Shocks and Their Impact on Insider Activity}\\[3pt]
+\textit{with J. A. P\'erez-Amuedo, R. Houston, and M. K. Hassan}\\
+Presented at the FMA 2026 Annual Meeting.
+
+\begin{abstractblock}
+How do government subsidies shape the information environment of public firms? Linking public
+subsidy data to analyst data and SEC Form 4 insider transactions for U.S. public firms over 2000
+to 2023, we show that subsidies operate as \textit{attention} events rather than
+\textit{information} events. Analyst coverage intensity rises by approximately 4.8 percent in a
+panel OLS, and by 8.7 percent in a matched difference-in-differences design over the five-year
+award window following the first receipt. The effect builds for three years post-award and scales
+with award size. Yet the content of analyst output does not change. Consensus recommendations show
+a contemporaneous improvement, but no causal effect in the matched design, and forecast
+disagreement is flat once dispersion is scaled by the consensus mean. The unscaled increase using
+both I/B/E/S and Zacks data is a price-level artifact. Insiders respond decisively, with
+open-market trading volume rising 47 percent after subsidies, tilting toward net selling, and
+concentrating in opaque firms where outside evaluation is hardest. These post-award sales are less
+predictive of future returns than ordinary insider sales, consistent with opportunistic selling
+around subsidy-driven attention rather than informed trading. Government awards shift attention and
+liquidity rather than information, and corporate insiders, rather than analysts, appear to convert
+that attention into private benefits.
+\end{abstractblock}
+
+%======================= PAPERS UNDER REVIEW =======================
+\section{Working Papers}
+
+\textbf{Hidden Duration Losses and Bank Crash Risk: Evidence from the 2022 UK Gilt Crisis}\\[3pt]
+\textit{with M. K. Hassan, J. A. P\'erez-Amuedo, M. M. Ferdaus, and L. Pezzo}
+\gap
+
+\textbf{The Price of Disagreement: Identification and Measurement Dispersion Shocks}\\[3pt]
+\textit{with J. A. P\'erez-Amuedo and B. Fudali}
+\gap
+
+\entry{\textbf{The Limits of Flexibility: A Controlled Multi-Domain Study of Reinforcement Learning in Finance}}{Second Essay}
+\hgap
+\textit{with M. M. Ferdaus and M. K. Hassan}
+\gap
+
+\textbf{Unrecognized Held-to-Maturity Losses and the Repricing of US Bank Equity}\\[3pt]
+\textit{with M. K. Hassan and J. A. P\'erez-Amuedo}
+
+\gap
+
+\textbf{Information Conflict and CEO Insider Trading}\\[3pt]
+\textit{with Y. Kaffash Saligheh and L. Pezzo}\\
+Accepted for presentation at the SFA 2026 Annual Meeting.
+\gap
+
+\textbf{Depositor Discipline Re-examined, 2000 to 2025}\\[3pt]
+\textit{with M. K. Hassan, J. A. P\'erez-Amuedo, and S. M. Z. Iqbal}
+\gap
+
+\textbf{Said, Not Written: What Earnings Calls Carry That the 10-K Leaves Out}\\[3pt]
+\textit{with N. Maroney}
+\gap
+
+\textbf{Do Large Language Models Allocate Capital More in Line with Q-Theory Than Managers?}\\[3pt]
+\textit{with M. M. Ferdaus and M. K. Hassan}
+\gap
+
+\textbf{Consensus without Revision: Roster Turnover and the Measurement of Analyst Opinion}\\[3pt]
+\textit{with I. Sifat}
+\gap
+
+\textbf{Impacts of Improved Fuel Efficiency and Trade Facilitation on Modal Choice and Emissions}\\[3pt]
+\textit{with M. Avetisyan}
+
+%========================== PUBLICATIONS ==========================
+\section{Publications}
+
+\textbf{Nonfarm Activity Reduces Migration: Evidence from Bangladesh}\\[3pt]
+\textit{with K. Iqbal, M. N. F. Pabon, and N. A. Shashi}\\
+\textit{Development Policy Review}, 2023.
+
+%==================== CONFERENCE PRESENTATIONS ====================
+\section{Conference Presentations}
+
+\entry{\textbf{Financial Management Association (FMA) Annual Meeting}}{2026}
+\hgap
+\textit{Subsidies as Attention Shocks and Their Impact on Insider Activity}.
+\smallgap
+
+\entry{\textbf{Southern Finance Association (SFA) Annual Meeting}}{2026}
+\hgap
+\textit{Information Conflict and CEO Insider Trading} (accepted).
+\smallgap
+
+\entry{\textbf{Southwestern Finance Association (SWFA), 65th Meeting}}{March 2026}
+\hgap
+\textit{Hidden Duration Losses and Bank Crash Risk: Evidence from the 2022 UK Gilt Crisis}.
+\smallgap
+
+\entry{\textbf{Federation of Business Disciplines (SWDSI)}}{March 2026}
+\hgap
+\textit{The Limits of Flexibility: A Controlled Multi-Domain Study of Reinforcement Learning in Finance}.
+\smallgap
+
+\entry{\textbf{Federation of Business Disciplines (SWDSI)}}{March 2025}
+\hgap
+\textit{Machine Learning-Based Optimization of Capital Structure Decisions}.
+\smallgap
+
+\entry{\textbf{Southern Economic Association Annual Meetings}}{November 2024}
+\hgap
+\textit{The Impact of Improved Fuel Efficiency on Greenhouse Gas Emissions from International
+Transportation} (with M. Avetisyan).
+\smallgap
+
+\entry{\textbf{World Bank Conference}}{November 2021}
+\hgap
+\textit{Local Nonfarm Opportunities and Migration Decisions: Evidence from Bangladesh}.
+
+%====================== RESEARCH EXPERIENCE ======================
+\section{Research Experience}
+
+\entry{\textbf{Graduate Research Assistant}}{2024 to Present}
+\hgap
+Division of Business and Economic Research (DBER), Louisiana State University of New Orleans
+\begin{abstractblock}
+Research on the transition of U.S. tourism, database dynamics, and impact analysis using big data.
+\end{abstractblock}
+\smallgap
+
+\entry{\textbf{Graduate Research Assistant}}{2022 to 2024}
+\hgap
+Texas Tech University, Lubbock, TX
+\begin{abstractblock}
+Research on the transition of U.S. agriculture, the dynamics of consumer tastes, growth of dollar
+stores, and event analysis using big data.
+\end{abstractblock}
+\smallgap
+
+\entry{\textbf{Research Fellow}, Research and Policy Integration for Development}{2023}
+\entry{\textbf{Senior Research Associate}, Policy Research Institute of Bangladesh}{2022}
+\entry{\textbf{Monitoring and Evaluation Officer}, WorldFish}{2022}
+\entry{\textbf{Research Associate}, Bangladesh Institute of Development Studies}{2018}
+\entry{\textbf{Research Assistant}, University of Malaya, Malaysia}{2015}
+
+%======================== HONORS AND AWARDS ========================
+\section{Honors and Awards}
+\begin{itemize}[leftmargin=1.2em,itemsep=2pt,topsep=2pt]
+  \item Graduate Student Assistantship, Louisiana State University of New Orleans (2024 to Present).
+  \item 1st Prize, USDA-AAEA Data Visualization Challenge, AAEA Annual Conference (2023).
+  \item Distinguished Graduate Student Assistantship, Texas Tech University (2022 to 2024).
+  \item Invited Speaker, U.S. State Department Foreign Service Institute (2023, 2024).
+  \item GRE: Quantitative 168, Verbal 163 (331/340).
+\end{itemize}
+
+%============================== SKILLS ==============================
+\section{Skills}
+
+\textbf{Programming:} Python, R, Stata, MATLAB, SQL\\
+\textbf{Machine Learning:} PyTorch, TensorFlow, XGBoost, LightGBM, Stable-Baselines3\\
+\textbf{Market and Firm Data:} WRDS, CRSP, Compustat, I/B/E/S, Zacks, SEC EDGAR and Form 4, TRACE, DealScan\\
+\textbf{Other Tools:} \LaTeX, Git, GTAP, GIS\\
+\textbf{Languages:} English (fluent)\\
+\textbf{Hobbies:} Pickleball, Tennis
+
+%============================ REFERENCES ============================
+\section{References}
+\vspace{4pt}
+
+\noindent
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{Dr. M. Kabir Hassan} \textit{(Advisor)}\\[3pt]
+Professor\\
+Department of Economics and Finance\\
+Louisiana State University of New Orleans\\
+(504) 280-6163\\
+\href{mailto:mhassan@uno.edu}{mhassan@uno.edu}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{Dr. Reza Houston}\\[3pt]
+Associate Professor\\
+Department of Finance and Insurance\\
+Ball State University\\
+(812) 241-2395\\
+\href{mailto:rhouston@bsu.edu}{rhouston@bsu.edu}
+\end{minipage}
+
+\vspace{14pt}
+
+\noindent
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{Dr. Walter (Dub) Lane}\\[3pt]
+Professor, Department Chair\\
+Department of Economics and Finance\\
+Louisiana State University of New Orleans\\
+(504) 280-7145\\
+\href{mailto:wlane@uno.edu}{wlane@uno.edu}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{Dr. Luca Pezzo}\\[3pt]
+Associate Professor\\
+Department of Economics and Finance\\
+Louisiana State University of New Orleans\\
+(504) 280-6602\\
+\href{mailto:lpezzo@uno.edu}{lpezzo@uno.edu}
+\end{minipage}
+
+\vspace{14pt}
+
+\noindent
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{Dr. Misak Avetisyan}\\[3pt]
+Associate Professor and Associate Chair\\
+Department of Economics\\
+Texas Tech University\\
+External Research Fellow, CREATE,\\
+University of Southern California\\
+(806) 834-6156\\
+\href{mailto:misak.avetisyan@ttu.edu}{misak.avetisyan@ttu.edu}
+\end{minipage}
+
+\end{document}

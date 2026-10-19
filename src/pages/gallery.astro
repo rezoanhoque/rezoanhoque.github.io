@@ -21,7 +21,7 @@ const imgs = import.meta.glob<{ default: ImageMetadata }>('../assets/gallery/*.j
         return im && (
           <figure class="card shot" style="margin:0">
             <a href={im.src} class="zoom" data-caption={p.caption}>
-              <Image src={im} alt={p.alt} widths={[400, 800]} sizes="(max-width: 600px) 100vw, (max-width: 860px) 50vw, 360px" />
+              <Image src={im} alt={p.alt} style={p.pos ? `object-position:${p.pos}` : undefined} widths={[400, 800]} sizes="(max-width: 600px) 100vw, (max-width: 860px) 50vw, 360px" />
             </a>
             <figcaption class="cap">
               <span class="meta"><span class="tag tag-date">{p.tag}</span>{p.date}</span>

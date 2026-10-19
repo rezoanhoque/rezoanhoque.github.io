@@ -6,9 +6,33 @@ export interface Photo {
   date?: string;
   caption: string;
   alt: string;
+  pos?: string; // CSS object-position for the card crop
 }
 
 export const photos: Photo[] = [
+  {
+    file: 'fma-2026-lunch-dybvig.jpg',
+    tag: 'Conferences',
+    date: 'Oct 2026',
+    caption: 'Lunch with Philip H. Dybvig, co-recipient of the 2022 Nobel Memorial Prize in Economic Sciences for research on banks and bank runs, and my coauthors at the FMA 2026 Annual Meeting in Tampa.',
+    alt: 'M. R. Hoque at a lunch table with Philip H. Dybvig and coauthors in Tampa',
+  },
+  {
+    file: 'fma-2026-dybvig-cafe.jpg',
+    tag: 'Conferences',
+    date: 'Oct 2026',
+    caption: 'With Philip H. Dybvig (Washington University in St. Louis) in Tampa during the FMA 2026 Annual Meeting.',
+    alt: 'M. R. Hoque with Philip H. Dybvig and colleagues at an outdoor cafe in Tampa',
+    pos: 'center 72%',
+  },
+  {
+    file: 'fma-2026-badge.jpg',
+    tag: 'Conferences',
+    date: 'Oct 2026',
+    caption: 'At the FMA 2026 Annual Meeting in Tampa, Florida, where I presented my job market paper, "Subsidies as Attention Shocks and Their Impact on Insider Activity."',
+    alt: "M. R. Hoque's name badge for the FMA 2026 Annual Meeting in Tampa",
+    pos: 'center 40%',
+  },
   {
     file: 'lsuno-fall-2026.jpg',
     tag: 'Milestones',

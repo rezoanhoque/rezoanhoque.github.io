@@ -1,0 +1,130 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex.fmt)
+ restricted \write18 enabled.
+entering extended mode
+(cv_web.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo)
+)
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometr
+y.sty
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.
+sty)
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.s
+ty
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.st
+y))
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometr
+y.cfg))
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+)
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.st
+y)
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty)
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlese
+c.sty)
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumite
+m.sty)
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhd
+r.sty)
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microt
+ype.sty
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbo
+x.sty)
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microt
+ype-pdftex.def)
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microt
+ype.cfg))
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperre
+f.sty
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetk
+eys.sty)
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\k
+vdefinekeys.sty)
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfe
+scape.sty
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmd
+s.sty)
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdf
+texcmds.sty
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infw
+arerr.sty)))
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.
+sty)
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref
+.sty
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcoun
+t.sty)
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring
+\gettitlestring.sty
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvopti
+ons.sty)))
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stri
+ngenc.sty)
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.
+def)
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcal
+c.sty)
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.d
+ef) (C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty)
+
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.
+sty
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\big
+intcalc.sty)))
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex
+.def
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\r
+erunfilecheck.sty
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\
+uniquecounter.sty)))
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd)
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3back
+end-pdftex.def)
+No file cv_web.aux.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr
+.cfg)
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.s
+ty
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\col
+or.cfg)
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdf
+tex.def
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp
+-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+))
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcol
+or.ltx))
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd)
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd)
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd)
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd)
+[1{C:/Users/Rezoan Hoque/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/U
+sers/Rezoan Hoque/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C
+:/Users/Rezoan Hoque/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy
+.enc}] [2]
+(C:\Users\Rezoan Hoque\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd)
+[3{C:/Users/Rezoan Hoque/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts
+1.enc}] [4] (cv_web.aux)
+
+Package rerunfilecheck Warning: File `cv_web.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )<C:/Users/Rezoan Hoque/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lm
+bx10.pfb><C:/Users/Rezoan Hoque/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/lm/lmbx12.pfb><C:/Users/Rezoan Hoque/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/lm/lmr10.pfb><C:/Users/Rezoan Hoque/AppData/Local/Programs/MiKTeX/font
+s/type1/public/lm/lmr8.pfb><C:/Users/Rezoan Hoque/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/lm/lmri10.pfb><C:/Users/Rezoan Hoque/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
+Output written on cv_web.pdf (4 pages, 156415 bytes).
+Transcript written on cv_web.log.
+pdflatex: major issue: So far, you have not checked for MiKTeX updates.
